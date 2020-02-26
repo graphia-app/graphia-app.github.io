@@ -1,15 +1,15 @@
-## Graphia
+![]({{site.baseurl}}//assets/graphiaicon.png)
 
-Graphia is a powerful new open-source visual analytics platform.  It has been designed and developed to address the growing challenge of interpreting large and complex datasets. 
+# Graphia
+## Clarity from Complexity
 
-
- 
+Graphia is a powerful open-source visual analytics platform.  It has been designed and developed to address the growing challenge of interpreting large and complex datasets. 
 
 Core to Graphia’s functionality is its ability to create networks from any table of numeric or discrete data values and visualize the often large and complex graph structures that result.  In other words, it can be used for the analysis of any data that records measurements from multiple entities over different states or time-points. This includes the majority of data produced by modern analysis platforms. It can also be used to visualise and analyse data that is already in the form of a network.
 
-Graphia offers a range of benefits to help you with your analysis needs:
+![]({{site.baseurl}}//assets/components.png)
 
- 
+Graphia offers a range of benefits to help you with your analysis needs:
 
 Flexible workflows
 
@@ -24,8 +24,8 @@ Harnessing the power of visualisation
 Putting the analyst at the heart of the analysis
 
 When data is visualised in an intuitive and interactive manner, it allows the analyst the tackle certain problems whose size and complexity make them otherwise intractable. Graphia couples advanced computational algorithms with a visualisation interface that makes full use of the cognitive abilities of humans, providing deeper understanding and better communication of data.
-
  
+![]({{site.baseurl}}//assets/quartercomponents.png)
 
 Easy to use interface  
 
