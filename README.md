@@ -1,8 +1,3 @@
----
-title: Graphia
-published: true
----
-
 ![]({{site.baseurl}}/assets/graphiaicon.png)
 
 # Graphia - Clarity from Complexity
