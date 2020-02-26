@@ -49,6 +49,11 @@ Core to Graphia’s functionality is its ability to create networks from any tab
 - Easy export and sharing of analysis results
 - Customizable to suit your data type or analysis needs
 
+![]({{site.baseurl}}/assets/quartercomponents.png)
+
+
+# Benefits
+
 ### Flexible workflows
 
 Many data types, many applications.
@@ -60,8 +65,6 @@ Graphia works with two broad classes of data; Network data where connections bet
 Putting the analyst at the heart of the analysis
 
 When data is visualised in an intuitive and interactive manner, it allows the analyst the tackle certain problems whose size and complexity make them otherwise intractable. Graphia couples advanced computational algorithms with a visualisation interface that makes full use of the cognitive abilities of humans, providing deeper understanding and better communication of data.
- 
-![]({{site.baseurl}}/assets/quartercomponents.png)
 
 ### Easy to use interface  
 
