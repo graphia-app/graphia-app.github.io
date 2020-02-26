@@ -13,7 +13,7 @@ Core to Graphia’s functionality is its ability to create networks from any tab
 
  
 
- # Compatible Data Types
+# Compatible Data Types
 
 - Biological data – protein interaction data, transcriptomics, single cell analyses, proteomics, metabolomics, multiparameter flow cytometry, genotyping data, medical imaging data,
 
