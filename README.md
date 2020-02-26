@@ -1,5 +1,6 @@
 ---
 title: Graphia - Home
+published: true
 ---
 
 ![]({{site.baseurl}}/assets/graphiaicon.png)
