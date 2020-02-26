@@ -1,3 +1,7 @@
+---
+title: Graphia - Home
+---
+
 ![]({{site.baseurl}}/assets/graphiaicon.png)
 
 # Graphia - Clarity from Complexity
