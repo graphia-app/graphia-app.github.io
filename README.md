@@ -56,7 +56,7 @@ Graphia works with two broad classes of data; Network data where connections bet
 
 ### Harnessing the power of visualisation
 
-**Putting the analyst at the heart of the analysis **
+**Putting the analyst at the heart of the analysis**
 
 When data is visualised in an intuitive and interactive manner, it allows the analyst the tackle certain problems whose size and complexity make them otherwise intractable. Graphia couples advanced computational algorithms with a visualisation interface that makes full use of the cognitive abilities of humans, providing deeper understanding and better communication of data.
 
