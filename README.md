@@ -1,5 +1,5 @@
 ---
-title: Graphia - Home
+title: Graphia
 published: true
 ---
 
