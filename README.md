@@ -1,6 +1,6 @@
 
 <p align="center">
-	![]({{site.baseurl}}/assets/graphiaicon.png)
+	<img src={{site.baseurl}}/assets/graphiaicon.png></img>
 </p>
 # Graphia - Clarity from Complexity
 
