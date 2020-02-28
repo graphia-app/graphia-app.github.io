@@ -1,6 +1,6 @@
 
 <p align="center">
-	<img src={{site.baseurl}}/assets/graphiaicon.png></img>
+	<img src="{{site.baseurl}}/assets/graphiaicon.png"/>
 </p>
 # Graphia - Clarity from Complexity
 
