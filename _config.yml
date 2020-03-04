@@ -5,6 +5,6 @@ header_pages:
   - example-data.md
   - userguide.md
 collections:
-  guide-1:
+  guide:
     output: true
-    permalink: /guide/1/:path/
+    permalink: /guide/:path/
