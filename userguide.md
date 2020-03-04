@@ -11,8 +11,8 @@
 ## Correlation Network Analysis
 ## Other Useful Information
 
-{% assign atopics = site.userguide | sort: 'order' %}
-{% for atopic in atopics %}
+{% assign section = site.guide-1 %}
+{% for page in section %}
   <li {% if page.url == atopic.url %} class="active"{% endif %}>
     <a href="{{ atopic.url }}">{{ atopic.title }}</a>
   </li>
