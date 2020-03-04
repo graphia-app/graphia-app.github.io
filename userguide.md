@@ -11,9 +11,9 @@
 ## Correlation Network Analysis
 ## Other Useful Information
 
-{% assign section = site.guide-1 %}
+{% assign section = site.guide %}
 {% for entry in section %}
-  <li {% if page.url == entry.url %} class="active"{% endif %}>
+  <li>
     <a href="{{ entry.url }}">{{ entry.title }}</a>
   </li>
 {% endfor %}
