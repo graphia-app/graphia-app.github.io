@@ -1,8 +1,8 @@
-
+Graphia - Clarity from Complexity
+================
 <p align="center">
 	<img src="{{site.baseurl}}/assets/graphiaicon.png"/>
 </p>
-# Graphia - Clarity from Complexity
 
 Graphia is a powerful open-source visual analytics platform.  It has been designed and developed to address the growing challenge of interpreting large and complex datasets. 
 
