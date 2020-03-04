@@ -1,0 +1,139 @@
+## Correlation network analysis
+
+For datasets of numerical values arranged in columns and rows, it may not be obvious what the relationship between them is. Using Graphia’s built-in correlation analysis you can identify relationships between entities based on the similarity between their data patterns.  Graphia can rapidly generate correlation graphs even from very large tables of numbers, i.e. 10’s thousands or columns and rows. The process of preparing data for loading is down to the individual, as each data type or source of data may have its own challenges in getting it ‘graph ready’. These include; data cleaning, formatting, QC, normalisation, annotation, correction, imputation, etc.  Garbage in = Garbage out.
+
+In order to leverage correlation analysis the data must be formatted into a either a Comma Separated Values (.csv), Tab Separated Values (.tsv) or an Excel Files (.xlsx). These files must be structured to be ‘correlation-ready’.
+
+TO-DO: IMAGE
+Format of a ‘correlation analysis ready’ file and saved as a .csv file
+
+A correlation-ready file consists of a header of column IDs, then a series of rows with each row representing a node (or entity). The first column should be a unique identifier for each entity. The next set of columns should describe attribute values associated with that entity. The final set of columns should be the numerical attribute data which will be used to perform the correlation analysis. Similarly columns of data should begin a unique identifier (row 1), include attribute data (where available), followed by the numerical values.
+
+For a more in-depth look at the correlation-ready structure please view our wiki.
+
+Once your data is correlation-ready, simply open the file in Graphia by navigating to File > Open or by clicking the file open icon. 
+
+Below we have sought to describe the process and functions that might be used during any graph-based analysis. 
+
+### Generation of correlation graphs
+
+Where data of interest comprises of a table or spreadsheet of numerical values, calculation of a correlation matrix generates a relationship matrix between individual data series.  Most commonly this will be a case of generating a similarity matrix based on the Pearson correlation coefficient or perhaps Spearman rank, both of which can be calculated by Graphia. In principle, however, any relationship matrix based on a measure of similarity can be visualised within the tool. For instance, when dealing with categorical data use of Jaccard similarity coefficient is more appropriate. Other, measures may be calculated outside of the tool and imported as a similarity matrix.
+
+In order to turn numerical data into a graph and identify data patterns and trends therein, Graphia compares the numerical values (data series) associated with each entity, with those associated with every other entity, in an all vs. all comparison. In other words, it calculates a correlation matrix where correlations range from -1 (perfect anti-correlation) to +1 (perfect correlation). The bigger the data series, i.e. the number of dimensions it contains, the less likely any entity will be correlated to another purely by chance. 
+
+Upon loading a table of numbers, you will be presented with the Introduction dialog and informs that you are to enter Graphia’s Correlation plugin. To set up an analysis you will be guided through a number of other dialogs that set up the parameters for the analysis. Upon clicking next, you will be presented with the Data Selection dialog.
+
+### Data selection dialog
+
+TO-DO: IMAGE
+Data selection dialog with a numerical frame selected highlighted in blue and transpose option framed in red.
+
+The Data Selection dialog contains a number of options to adjust the graph output from the file. Graphia automatically detects where the numerical data begins, i.e. the data frame (highlighted) from the input file.  You can click on cells within this page to add or remove rows and columns from the analysis if the data frame has not been selected as desired.
+
+This page also gives you the option to transpose the data, if you wish to set the columns to be treated as nodes, instead of the rows. Click Next when happy with your selection.
+
+### Correlation dialog
+
+TO-DO: IMAGE
+Plot of predicted graph size based on correlation threshold. As initial threshold increases, the number of nodes and edges in the resultant graph decreases.
+
+The distribution and number of correlation values for a given dataset is defined primarily by a number of variables:
+- Number of dimensions (columns) – the smaller the number, the more likely things are correlated purely by chance, i.e. you will need to select a high r-threshold value. 
+- Data structure – if there are many patterns in the data it will increase the number of highly connected cliques in the data and therefore the number of edges. Also if the data describes the same or similar entities many times over, edge numbers may again be very high. 
+- Noise – the noisier (more random) a dataset the less it will correlated.
+- Number of rows – this directly influences the absolute number of calculations that need to be performed but not the distribution of results.
+
+A plot of node and edge counts for a range of threshold values is provided. It should be noted that the distribution of correlation values is dataset specific and one must be aware of those node and edge counts, correlation graphs are potentially massive! Given the dataset-specific nature of a correlation matrix, it is therefore necessary to select the Minimum and Initial thresholds for graph construction.
+
+The Minimum Threshold describes the lowest correlation value that can be used to construct a graph, i.e. the minimum edge weight. Whilst Graphia calculates a full all vs. all correlation matrix it only saves some of the calculations. The reason being that when the input files are large (10’s thousands of rows), the number correlations calculated can be massive and storing them all will likely use up all of your RAM, and secondly, weak correlations are generally not interesting. Any correlation values below the minimum threshold will be discarded, while correlation values above the minimum threshold will be saved in memory for the duration of an analysis. Generally, the default minimum threshold of 0.7 is good for many applications. For datasets consisting of weakly correlated entities you may wish to lower this value or for strongly correlated matrices raise this value.
+
+The Initial Threshold is used to set the minimum edge weight used for graph assembly. For example, using an initial threshold of r = 0.85 means entity pairs with a correlation score of 0.85 or above will be connected by an edge, while any relationship below r = 0.85 correlation will not be visible. The initial threshold can be changed later when the graph is generated. Clicking on and dragging the dotted line will adjust the Initial threshold or the value can be changed in the box. With initial threshold, a good starting point is to select a value near to the “Knee” of the plot; where the number of nodes begins to decrease more rapidly. In the example above this would be around 0.95. This choice is not permanent and can be adjusted later. Generally, the aim is to plot the maximum number of nodes connected by a minimum number of edges.
+
+For most applications, the Pearson correlation coefficient is recommend with graphs being constructed based on all correlations above a defined threshold (out of distribution ranging from -1 to +1).  However, Graphia will also build correlation graphs based on Spearman Rank correlations and provides the option to build graphs of negative correlations or both negative and positive correlations.
+
+Once thresholds are selected click Next.
+
+### Data manipulation dialog
+This provides a number of options to adjust the data values contained within your selected data frame.
+
+TO-DO: IMAGE
+This dialog provides the means to impute, log/antilog transform or normalise input data prior to the calculation of the correlation matrix.
+- Imputation (only displayed when needed) allows you to replace missing values in the dataset (empty cells) with a constant or interpolated value.
+- Scaling scales the values within the data-frame, this is useful if you use logarithmic or exponential data.
+- Normalisation allows you to adjust distributions of data within your data-frame. Min-Max normalisation is particularly useful if your columns each use different units.
+
+If these settings are adjusted you may want to return correlation dialog to see what effect this has had on the distribution of correlations.
+
+### Initial transform dialog
+This dialog allows you to pre-add some of the most common transforms to the graph. Transforms can be added or removed later once a graph has been generated.
+
+TO-DO: IMAGE
+This dialog provides the means to apply graph transforms prior to visualisation of the graph.
+
+### Summary dialog
+This dialog provides a look at all the parameters set before correlation occurs. These options can be copied and pasted for provenance of your analysis. 
+
+TO-DO: IMAGE
+The Summary dialog lists all the pre-analysis data transforms that have been applied during the previous steps.
+
+Please note: Should your selected settings for graph construction result in a massive graph, i.e. one that is likely to exhaust your computer’s memory or graphics card, usually because of the number of edges above the initial threshold, the following message will be displayed:
+
+> ‘WARNING: This is a very large graph which has the potential to exhaust system resources and lead to instability or freezes. Increasing the Minimum Correlation Value will usually reduce the graph size.’ 
+
+Ignore this warning at your peril!
+
+Finish begins the computation of the initial graph visualised using settings provided by the user.
+
+Clicking Confirm at any point during data entry will skip to the Summary dialog using default settings.
+
+## Basic analysis steps
+
+From here on you may require many of Graphia’s visualisation and analytical capabilities described in Section 3.  In particular you may wish to:
+- Adjust the correlation threshold. Displayed at top right hand corner of the screen, is a slider bar and text box for adjusting the display threshold between the initial threshold and 1.
+- Cluster the graph. For correlation graphs we recommend use of the MCL algorithm.
+- Display the data values associated with clusters – see below.
+
+TO-DO: IMAGE
+Graphia’s user interface displaying a large correlation graph. The red nodes in the middle of the graph have been selected, the windows below showing their name and attributes, and to right, a plot of the data associated with them.
+
+### Correlation graph – First view
+
+All relationships with a value above the minimum threshold will be stored in memory, however only those edges with a value above the defined initial threshold will be displayed. This will be reflected in the Transform list.
+
+TO-DO: IMAGE
+The transforms list immediately following correlation graph creation.
+
+In the top right of the graph display window, there will be two transforms automatically added to the Transforms list.  The first, “Remove Edges where Pearson Correlation Value < [Initial Threshold]” will hide all edges with a correlation score below the value set. This value can be adjusted here and the effects will immediately apply to the graph. A large value will remove all but the highly correlated relationships while a low value will display the weaker relationships. The second “Remove Components where Component Size <= 1” will remove singular nodes from the display that have no connections.
+
+TO-DO: IMAGE
+Effect of adjusting the correlation threshold on graph structure. As the r-threshold value is increased edges are lost and a graph opens up and potentially fragments. Sample-sample correlation matrix of transcriptomics experiment, node colours reflect time points after stimulation of mouse macrophages, although individual nodes may represent different experiment conditions, edges are coloured according to their weight (r-value) (data from: Raza et al., J. Leukocyte Biol. 96:167-83 (2014).
+
+By adjusting the cut-off value for edges, you can ‘open up’ the graph to reveal underlying structure – what connects, and where are nodes relative to others.  Another option to help reveal the structure of a highly connected graph, is to apply an edge reduction method such as k-NN. Below shows the above graph before and after the k-NN edge reduction algorithm has been applied.
+
+TO-DO: IMAGE
+Effect of running k-NN algorithm on sample-sample graph. When k-NN applied, here keeping only the top 5 correlated edges for each node, the structure opens up. On middle and right-hand graph node colours reflect time points after stimulation of mouse macrophages or experiment condition, respectively (data from: Raza et al., J. Leukocyte Biol. 96:167-83 (2014).
+
+### Data plot window
+
+This window is specific to graphs generated from numerical data and displays the data values associated with selected node(s). There are numerous options to change the appearance of this plot window, these will be discussed below.
+
+### Cluster analysis
+
+Once a correlation graph has been generated, a common first step is to run a clustering algorithm on the graph. This partitions the graph into clusters based on the connectivity between nodes, with the result that entities with a similar data profile are located with the same cluster.  For correlation graphs where the average node degree is high, we recommend the use of the MCL algorithm. The granularity setting for clustering can be adjusted on fly by use of the slider bar, such that the clustering reflects the visible graph structure. Once satisfied with the partition of a graph, a user can then rapidly explore the profile of the resulting clusters. 
+
+Go to Edit menu -> Find by Attribute Value (Ctrl+H) and the following menu will appear in the top left of the graph display window, and the first attribute in the class (in this case MCL cluster) will be displayed. Clicking arrows will scroll through attributes in that class. By clicking on the attribute type you can select other attributes to visualise upon the graph.
+
+TO-DO: IMAGE
+Gene correlation graph, following clustering. A single cluster (cluster 1) has been selected and its identity and properties (user defined and calculated) are shown below in the attribute table window to the left and its expression profile is plotted in the graph display window to the right. Each line represents the data associated with a single node.
+
+Having clustered a graph the next thing is to view the profile of those clusters and there are numerous options available to do this.
+
+TO-DO: IMAGE
+Options for viewing cluster profile. (A) A single cluster with the profile of individual nodes on display.  Mouse over a given data point with provide details. Note column attributes have been displayed under the line graph using the ‘Select Visible Column Annotations’ button and selecting those of interest. This allows easy alignment between know variables and the data; (B) Mean histogram of A; (C) IQR plot of A; (D) Mean line of two clusters (1,2) showing anti-correlation; (E) Combined plot of all clusters; (F) Various menu options accessed by right click on data plot window.
+
+Graphia is designed to let a user quickly explore data clusters, defining what is interesting, what is ‘noise’ and what data patterns are due to technical or other reasons. Having selected a specific cluster, individual data points within that cluster may be selected in the attribute display window. By scrolling up and down with the arrow keys, different entities within a list may be explored.   After an initial analysis it may be necessary to look again at the input data, possibly recalculating values or removing data that is not of interest, therefore focusing an analysis on what is interesting. Beyond this there are many other ways that one might wish to explore or change the settings for graph visualisation as outlined in section 3.
+
+_Graphia is designed only to allow you, a user, to explore, analyse and interrogate data, how you do this and what you do with the insights obtained, is up to you._
+
+
+
