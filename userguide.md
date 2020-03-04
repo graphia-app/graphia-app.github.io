@@ -12,9 +12,9 @@
 ## Other Useful Information
 
 {% assign section = site.guide-1 %}
-{% for page in section %}
-  <li {% if page.url == atopic.url %} class="active"{% endif %}>
-    <a href="{{ atopic.url }}">{{ atopic.title }}</a>
+{% for entry in section %}
+  <li {% if page.url == entry.url %} class="active"{% endif %}>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
   </li>
 {% endfor %}
 </ul>
