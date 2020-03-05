@@ -11,8 +11,8 @@
 ## Correlation Network Analysis
 ## Other Useful Information
 
-{% assign section = site.guide %}
-{{ site.guide }}
+{% assign section = site.section1 %}
+{{ site.section1 }}
 {% for entry in section %}
   <li>
     <a href="{{ entry.url }}">{{ entry.title }}</a>

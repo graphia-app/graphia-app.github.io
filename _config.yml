@@ -4,7 +4,17 @@ header_pages:
   - download.md
   - example-data.md
   - userguide.md
+collections_dir: guide
 collections:
-  guide:
+  section1:
+    output: true
+    permalink: /guide/:path/
+  section2:
+    output: true
+    permalink: /guide/:path/
+  section3:
+    output: true
+    permalink: /guide/:path/
+  section4:
     output: true
     permalink: /guide/:path/
