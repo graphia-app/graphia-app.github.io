@@ -1,4 +1,6 @@
-### A Short Introduction to Network Graphs
+---
+title: A Short Introduction to Network Graphs
+---
 Many types of data of interest to scientists and commercial organisations alike, are best understood when represented and analysed as a network.  Fundamentally, networks are simple structures composed only of nodes, i.e. representing people, places, molecules or things, and edges, representing relationships between them. Whilst uncomplicated in form, networks can be usedas a powerful medium to understand big and complex data and systems. When data is visualised as a network, large amounts of information can be explored on a global or local scale.
 
 For many reading this, network or graph-based analysis approaches may be relatively unfamiliar to you. The purpose of these pages is therefore to introduce you to various ideas and concepts of this approach to data analysis and demonstrate how this revolutionary software solution to graph analysis can be used. In so doing, we hope to be able to show you how graph analysis could allow you interact and understand your complex data in a completely different way.

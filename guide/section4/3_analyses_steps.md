@@ -1,4 +1,6 @@
-## Analyses Steps
+---
+title: Correlation Analysis Steps
+---
 
 From here on you may require many of Graphia’s visualisation and analytical capabilities described in Section 3.  In particular you may wish to:
 - Adjust the correlation threshold. Displayed at top right hand corner of the screen, is a slider bar and text box for adjusting the display threshold between the initial threshold and 1.

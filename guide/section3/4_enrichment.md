@@ -1,4 +1,7 @@
-## Enrichment Analysis
+---
+title: Enrichment Analysis
+---
+
 Enrichment Analysis is often useful especially when used in combination with graph clustering. Graphia provides a powerful enrichment tool built-in for testing your data.
 
 Enrichment analysis is an additional test that can be performed on sets of data to identify how significant the set distribution is compared to an average. Imagine 4 red and 4 blue balls distributed between 2 sets randomly. The statistical likelihood is that each set should get 2 red and 2 blue balls. If a bag had 4 red balls in they would be “Enriched” in red balls since it is unlikely to occur by chance. It is a useful tool for understanding how likely a result is.

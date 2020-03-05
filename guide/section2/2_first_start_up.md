@@ -1,4 +1,6 @@
-## First start-up
+---
+title: First Start-Up
+---
 
 Once running Graphia, you will be greeted with an introductory dataset and a simple tutorial. This tutorial dataset uses a graph of the London Underground and Riverbus Networks. The tutorial will guide you through simple interactions with the graph. Once closed, you can reopen the tutorial by going to Help -> Show Tutorial.
 

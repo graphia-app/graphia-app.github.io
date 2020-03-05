@@ -1,4 +1,7 @@
-## What type of data can I analyse with Graphia?
+---
+title: What Type of Data Can I Analyse with Graphia?
+---
+
 
 ## Network data
 Graphia can be used to analyse a wide variety of data types from almost any source, as long as it can be abstracted into a graph, i.e. the relationship betweenentities are known in advance. If you also have additional metadata, i.e. additional information on the nodes and edges, this can be imported and explored as node/edge attributes. This information may be stored in a database or spreadsheet but will need to be in the right format for loading and analysis within Graphia.

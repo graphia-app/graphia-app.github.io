@@ -1,4 +1,6 @@
-## Loading Numerical Data
+---
+title: Loading Numerical Data
+---
 
 For datasets of numerical values arranged in columns and rows, it may not be obvious what the relationship between them is. Using Graphia’s built-in correlation analysis you can identify relationships between entities based on the similarity between their data patterns.  Graphia can rapidly generate correlation graphs even from very large tables of numbers, i.e. 10’s thousands or columns and rows. The process of preparing data for loading is down to the individual, as each data type or source of data may have its own challenges in getting it ‘graph ready’. These include; data cleaning, formatting, QC, normalisation, annotation, correction, imputation, etc.  Garbage in = Garbage out.
 

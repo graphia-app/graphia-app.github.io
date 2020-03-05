@@ -1,4 +1,6 @@
-## Loading Graph Data
+---
+title: Loading Graph Data
+---
 
 For an analysis to proceed, data needs to be presented to Graphia in one of the supported file formats.  Graphia will allow you to load any data in the right format, and it will quickly highlight any errors or issues with either the data’s format.  It is not uncommon that once explored, that data will need to be refined and then reloaded.
 Graphia supports a wide range of data types derived from many sources, in this section we will deal with data that is already in a graph format and the tools available for its exploration and analysis.

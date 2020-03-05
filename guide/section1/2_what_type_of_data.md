@@ -1,4 +1,6 @@
-## What type of data can I explore and analyse?
+---
+title: What type of data can I explore and analyse?
+---
 
 Many types of data are inherently a network of relationships, whether that be between companies and clients, relations between family members, communications between things or interactions between proteins. As such, thesedata types can all be visualised and explored as a network. These networks may be very big and our tools have been specifically designed to visualise and explore graphs composed of millions of nodes and edges.
 

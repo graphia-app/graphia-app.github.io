@@ -1,4 +1,6 @@
-## Graph-related terms and concepts
+---
+title: Graph-related terms and concepts
+---
 
 ## Graph layout
 Graph layout is the process of placing nodes and edges for the purposes of visualising data structure, in other words, ordering of the information for visual inspection

@@ -1,4 +1,7 @@
-## Saving graphs, analysis results and data visualisations
+---
+title: Saving graphs, analysis results and data visualisations
+---
+
 Having performed an analysis one needs save the results. Graphia allows you to export tables of results or publication-quality images of the graphs and data plots, for subsequent communication of the results to others.
 
 ### Graphs

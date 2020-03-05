@@ -1,3 +1,5 @@
-## Download
+---
+title: Download
+---
 
 TBA

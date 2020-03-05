@@ -1,5 +1,6 @@
-Example Datasets
-================
+---
+title: Example Datasets
+---
 
 Below are a variety of datasets that can be used to explore Graphia's functionality.
 
