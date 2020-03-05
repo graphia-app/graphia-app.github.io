@@ -4,7 +4,7 @@ For datasets of numerical values arranged in columns and rows, it may not be obv
 
 In order to leverage correlation analysis the data must be formatted into a either a Comma Separated Values (.csv), Tab Separated Values (.tsv) or an Excel Files (.xlsx). These files must be structured to be ‘correlation-ready’.
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s4-1.png)
 Format of a ‘correlation analysis ready’ file and saved as a .csv file
 
 A correlation-ready file consists of a header of column IDs, then a series of rows with each row representing a node (or entity). The first column should be a unique identifier for each entity. The next set of columns should describe attribute values associated with that entity. The final set of columns should be the numerical attribute data which will be used to perform the correlation analysis. Similarly columns of data should begin a unique identifier (row 1), include attribute data (where available), followed by the numerical values.
@@ -25,7 +25,7 @@ Upon loading a table of numbers, you will be presented with the Introduction dia
 
 ### Data selection dialog
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s4-2.png)
 Data selection dialog with a numerical frame selected highlighted in blue and transpose option framed in red.
 
 The Data Selection dialog contains a number of options to adjust the graph output from the file. Graphia automatically detects where the numerical data begins, i.e. the data frame (highlighted) from the input file.  You can click on cells within this page to add or remove rows and columns from the analysis if the data frame has not been selected as desired.
@@ -34,7 +34,7 @@ This page also gives you the option to transpose the data, if you wish to set th
 
 ### Correlation dialog
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s4-3.png)
 Plot of predicted graph size based on correlation threshold. As initial threshold increases, the number of nodes and edges in the resultant graph decreases.
 
 The distribution and number of correlation values for a given dataset is defined primarily by a number of variables:
@@ -56,7 +56,7 @@ Once thresholds are selected click Next.
 ### Data manipulation dialog
 This provides a number of options to adjust the data values contained within your selected data frame.
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s4-5.png)
 This dialog provides the means to impute, log/antilog transform or normalise input data prior to the calculation of the correlation matrix.
 - Imputation (only displayed when needed) allows you to replace missing values in the dataset (empty cells) with a constant or interpolated value.
 - Scaling scales the values within the data-frame, this is useful if you use logarithmic or exponential data.
@@ -67,13 +67,13 @@ If these settings are adjusted you may want to return correlation dialog to see 
 ### Initial transform dialog
 This dialog allows you to pre-add some of the most common transforms to the graph. Transforms can be added or removed later once a graph has been generated.
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s4-6.png)
 This dialog provides the means to apply graph transforms prior to visualisation of the graph.
 
 ### Summary dialog
 This dialog provides a look at all the parameters set before correlation occurs. These options can be copied and pasted for provenance of your analysis. 
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s4-7.png)
 The Summary dialog lists all the pre-analysis data transforms that have been applied during the previous steps.
 
 Please note: Should your selected settings for graph construction result in a massive graph, i.e. one that is likely to exhaust your computer’s memory or graphics card, usually because of the number of edges above the initial threshold, the following message will be displayed:
