@@ -12,7 +12,7 @@ Central to the UI is the graph visualisation window, wherein data is displayed i
 
 Within the graph visualisation window, you can also access the Add Transforms(top right) and view/edit active transformations or Add Visualisations (bottom right) and view/edit active visualisations. Also displayed here are the summary statistics for the graph displayed (bottom left) and when active, search menusare placed in the top right-hand corner.
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s2-1.png)
 Graphia’s user interface displaying tutorial graph (London Transport Network).The nodes highlighted in green in the centre of the screen have been selected,the attribute table below showing their name and attributes. Clicking on a nodewithin this table selects nodes, without unselecting others.
 
 ## Node attribute table
@@ -20,7 +20,7 @@ Graphia’s user interface displaying tutorial graph (London Transport Network).
 The node attribute table (by default positioned at the bottom left of the graph visualisation window) displays information on selected nodes, their name and attribute information, whether imported or calculated within the tool. Columns of data can be hidden from view and selections exported as a table. In the case of 
 the tutorial data, each node is associated with the name of a station plus some additional calculated attributes based on the generated graph. Node degreedescribes how many edges are connected to the node. Node multiplicitydescribes how many nodes are represented by this node. In the tutorial dataset each node will just reflect one station
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s2-2.png)
 Node attribute table for the London Underground map
 
 ## Toolbar
@@ -28,7 +28,7 @@ Along the top left of Graphia’s UI is a tool bar, listing a range of standard 
 
 Graphia’s UI also contains numerous notes and tool tips to help inform users about its many functions and features.
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s2-3.png)
 Hover over menu item or question mark symbols within Graphia to display moreinformation about a feature.
 
 ## Setting visual preferences
@@ -39,6 +39,7 @@ Once loaded the first step is graph layout, whereby the data is displayed in a m
 
 Graphia supports graph visualisation in 2D and 3D environments. Options for setting visualisation mode are found towards the bottom of the View menu. The default setting is display (layout) graphs in 3D and to use smooth 3D shading (A).  This view can be changed to flat shading while still displaying the graph in 3D (B). Orthographic view makes all node the same size but still rendered in 3D, perspective of distance is not applied – useful when displaying encodings using node size to distinguish between attributes in a 3D setting (C). Layout of a graphin 2D can be with smooth (D) or flat shading (E) and when node density is high, node/edge outline tracing (flat view only) helps visualisation (F).
 
+![]({{ site.url }}/guide/assets/s2-4.png)
 Different graph visualisation options. (A) 3D perspective view, smooth shading (defaultview); (B) 3D perspective view, flat shading; (C) 3D orthographic view, flat shading; (D)2D view, smooth (3D) shading; (E) 2D view, flat shading; (F) compressed 2D layout, flatshading, showing node overlap view.
 
 ## Graph Navigation 
@@ -52,7 +53,7 @@ Core to Graphia’s interface is the graph visualisation window. From here you c
 
 There are two graph visualisation modes. Overview Mode provides a view of the entire graph and all its components. Component Mode provides a focused view at a particular graph component or a node within it. For example there are two components contained within London Transport graph, one is the London tube map, the second is the Riverbus network. These are displayed as separate components in overview mode as they are not connected to each other.
 
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s2-5.png)
 Overview mode on the left. Component mode on the right, focused on a particularcomponent. To move between components use arrows on left and right of the screen, toreturn to overview mode click on the icon on the bottom of the screen (red oval).
 
 You can interact with nodes by clicking on them.
@@ -64,7 +65,7 @@ You can interact with nodes by clicking on them.
 - Exit Component Mode and return to overview mode, click the back arrow at the bottom of the screen or press Esc.
 - Right click nodes to bring up the context menu for additional actions.
 
-TO-DO: Image
+![]({{ site.url }}/guide/assets/s2-6.png)
 Context menu for Paddington station
 
 ## Searching for information within a graph
