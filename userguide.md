@@ -1,9 +1,6 @@
 ## User Guide
 
 ## Introduction to Graphs
-
-[Introduction to Graphs]({{site.url}}/guide/graph_introduction.html)
-
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section1'" %}
 {% for entry in pages %}
   <li>
@@ -12,7 +9,25 @@
 {% endfor %}
 
 ## Using Graphia - Getting Started
+{% assign pages = site.pages | where_exp: "item", "item.url contains 'section2'" %}
+{% for entry in pages %}
+  <li>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+{% endfor %}
 
-## Graph-based Data
-## Correlation Network Analysis
+## Correlation Network Analysis (Numerical Data)
+{% assign pages = site.pages | where_exp: "item", "item.url contains 'section3'" %}
+{% for entry in pages %}
+  <li>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+{% endfor %}
+
 ## Other Useful Information
+{% assign pages = site.pages | where_exp: "item", "item.url contains 'section4'" %}
+{% for entry in pages %}
+  <li>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+{% endfor %}
