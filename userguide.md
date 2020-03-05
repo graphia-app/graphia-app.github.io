@@ -1,5 +1,6 @@
-## User Guide
-
+---
+title: User Guide
+---
 ## Introduction to Graphs
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section1'" %}
 {% for entry in pages %}
