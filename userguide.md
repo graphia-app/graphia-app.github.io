@@ -11,9 +11,8 @@
 ## Correlation Network Analysis
 ## Other Useful Information
 
-{% assign section = site.section1 %}
-{{ site.section1 }}
-{% for entry in section %}
+{{ site.pages }}
+{% for entry in site.pages %}
   <li>
     <a href="{{ entry.url }}">{{ entry.title }}</a>
   </li>
