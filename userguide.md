@@ -11,7 +11,6 @@
 ## Correlation Network Analysis
 ## Other Useful Information
 
-{{ site.pages }}
 {% for entry in site.pages %}
   <li>
     <a href="{{ entry.url }}">{{ entry.title }}</a>
