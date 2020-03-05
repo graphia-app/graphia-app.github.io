@@ -1,0 +1,46 @@
+## Use Case Examples
+
+**Graphia's** design and evolution was inspired by the analysis
+challanges posed by high dimensional data originating from the
+biomedical sciences. Fundamentally these data are no different from data
+from other sources and as such **Graphia** is suitable for any
+graph-based analysis of data from any source. Some use case examples are
+given below:
+
+<table>
+<tbody>
+<tr class="odd">
+<td><h3 id="transcriptomics_data">Transcriptomics Data</h3>
+<p><strong>Analysis of a gene expression atlas in the domestic sheep.</strong> Sheep are a key source of meat, milk and fibre for the global livestock sector, and an important biomedical model. Global analysis of gene expression across multiple tissues has aided genome annotation and supported functional annotation of mammalian genes. In this study researchers generated a large-scale gene expression (RNA-Seq) dataset representing all the major organ systems from adult sheep and from several juvenile, neonatal and prenatal developmental time points. They detected 25,350 genes (19,921 protein coding) expressed in at least one tissue. Kajeka's software was used to perform a network-based cluster analysis of this dataset grouping genes according to their expression pattern. The principle of ‘guilt by association’ was used to infer the function of uncharacterised genes from their co-expression with genes of known function. Using this approach the researchers were then describe the overall transcriptional signatures present in the sheep gene expression atlas and assign those signatures to specific cell populations or pathways. The findings were related to innate immunity by focusing on clusters with an immune signature, and to the advantages of cross-breeding by examining the patterns of genes exhibiting the greatest expression differences between purebred and crossbred animals. This high-resolution gene expression atlas for sheep was, to our knowledge, the largest transcriptomic dataset from any livestock species to date. It provides a resource to improve the annotation of the current reference genome for sheep, presenting a model transcriptome for ruminants and insight into gene, cell and tissue function at multiple developmental stages.</p>
+<p>Clark EL <em>et al.</em> (2017) A high resolution atlas of gene expression in the domestic sheep (Ovis aries). <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006997"><em>PLOS Genetics</em> 13(9): e1006997.</a></p></td>
+<td><figure>
+<img src="Sheep_atlas.png" title="Sheep_atlas.png" alt="" /><figcaption>Sheep_atlas.png</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><h3 id="time_course_data">Time-course Data</h3>
+<p><strong>Network analysis of the social and demographic influences on name choice within the UK (1838-2016).</strong> Chosen names reflect changes in societal values, personal tastes and cultural diversity. Patterns in name usage can be easily shown on a case by case basis, by plotting the rise and fall in their popularity over time. However, individual name choices are not made in isolation and trends in naming are better understood as group-level phenomena. In this study researchers used network analysis to examine naming records in order to explore the influences on name choices within the UK over the last 170 years. Using a large representative sample of approximately 22 million forenames from England and Wales given between 1838 and 2014, along with a complete population sample of births registered between 1996 and 2016, they demonstrated how trends in name usage can be visualised using Kajeka's software. By exploring the structure of these graphs various patterns of name use become apparent, a consequence of external social forces, such as migration, operating in concert with internal mechanisms of change. In general, they showed that the topology of the network graphs revealed naming vogues, and that naming vogues in part reflect social and demographic changes. Many name choices were consistent with a self-correcting feedback loop, whereby rarer names become common because there are virtues perceived in their rarity, yet with these perceived virtues lost upon increasing commonality. Based on their analysis they were able to speculate that towards the present day, the comparatively greater range of media, freedom of movement, and ability to maintain globally-distributed social networks increases the number of possible names, but also ensures they may more quickly be perceived as commonplace. Consequently, contemporary naming vogues are relatively short-lived with many name choices appearing a balance struck between recognisability and rarity.</p>
+<p>Bush S.J., Powell-Smith A, Freeman TC (2018) Network analysis of the social and demographic influences on name choice within the UK (1838-2016). <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205759"><strong><em>PLoS ONE</em> 13(10): e0205759.</strong></a></p></td>
+<td><figure>
+<img src="Names.png" title="Names.png" alt="" /><figcaption>Names.png</figcaption>
+</figure></td>
+</tr>
+<tr class="odd">
+<td><h3 id="microbiome_data">Microbiome Data</h3>
+<p><strong>Characterisation of the British honey bee microbiome.</strong> The European honey bee (Apis mellifera) plays a major role in pollination and food production. Honey bee health is a complex product of the environment, host genetics and associated microbes (commensal, opportunistic and pathogenic). Improved understanding of these factors will help manage modern challenges to bee health. This study used DNA sequencing to characterise the genome and microbiome of 19 honey bee colonies from across Britain. Low heterozygosity was observed in many Scottish colonies which had high similarity to the native dark bee. Colonies exhibited high diversity in composition and relative abundance of individual microbiome taxa. Most non-bee sequences were derived from known honey bee commensal bacteria or pathogens. To classify the cobionts lacking genomic information, researchers developed a novel network analysis approach for clustering orphan DNA contigs. After building contigs from all the DNA sequencing reads that did not map to the honey bee genome, they then calculated how many reads mapped to each contig in each sample. A numerical table was produced, documenting how many reads mapped to each of the ~30,000 contigs. This was then used for a correlation analysis. As contigs originating from the same organism should (and did) exhibit a similar abundance profile, they generally formed highly connected clusters (see figure). However, in some cases contigs derived showed disperate abundance profiles, suggesting the presence of bacterial subspecies with varying abundances in the different bee samples. The analyses shed light on microbial communities associated with honey bees and demonstrate the power of high-throughput, directed metagenomics for identifying novel biological threats in agroecosystems.</p>
+<p>Regan T. <em>et al.</em>, Characterisation of the British honey bee metagenome. <a href="https://www.nature.com/articles/s41467-018-07426-0"><strong><em>Nature Communications</em> 9: 4995 (2018).</strong></a></p></td>
+<td><figure>
+<img src="Honey_bee_microbiome_graph.png" title="Honey_bee_microbiome_graph.png" alt="" /><figcaption>Honey_bee_microbiome_graph.png</figcaption>
+</figure></td>
+</tr>
+<tr class="even">
+<td><h3 id="customer_survey_data">Customer Survey Data</h3>
+<p><strong>Analysis of customer survey data from large online retailer.</strong> Customer survey data can be large and complicated to interpret beyond a superficial level, e.g. analysis of net promoter score. Thousands of responses to a wide range of questions and for each respondent there may be a lot of information about them; age, gender, area of residence, purchase history, etc. We examined such data from a large online retailer and subjected it to network analysis. First a correlation graph was constructed using data from the questionnaire, each question being scored depending on the respondent’s level of agreement with the question (1 strongly disagree, 10 strongly agree), thereby grouping respondents based their pattern of response to the questionnaire. Broadly speaking, this grouped respondents into two groups, those who were overall happy with the company (Promoters) and those that were not (Detractors), and indeed the grouping was reflected by the NPS question.  However, beyond this crude separation, network analysis showed there to significant differences the how respondents answered certain questions, cluster analysis revealing these groupings. Furthermore, enrichment analysis showed these groups to be populated by customers with specific demographic profiles and level of custom. Using this information it was possible to provide a finer-grain analysis of the company's customers and thereby allowing them to better address the concerns of unhappy respondents by their customer support team.</p></td>
+<td><figure>
+<img src="Customer_survey_data2.png" title="Customer_survey_data2.png" alt="" /><figcaption>Customer_survey_data2.png</figcaption>
+</figure></td>
+</tr>
+</tbody>
+</table>
+
+.
