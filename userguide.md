@@ -16,7 +16,7 @@
   </li>
 {% endfor %}
 
-## Correlation Network Analysis (Numerical Data)
+## Graph Analysis
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section3'" %}
 {% for entry in pages %}
   <li>
@@ -24,8 +24,16 @@
   </li>
 {% endfor %}
 
-## Other Useful Information
+## Correlation Network Analysis (Numerical Data)
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section4'" %}
+{% for entry in pages %}
+  <li>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+{% endfor %}
+
+## Other Useful Pages
+{% assign pages = site.pages | where_exp: "item", "item.url contains 'section5'" %}
 {% for entry in pages %}
   <li>
     <a href="{{ entry.url }}">{{ entry.title }}</a>
