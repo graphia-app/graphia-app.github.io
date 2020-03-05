@@ -13,4 +13,4 @@ Graphia supports the following graph-based file formats:
 - MATLAB data files [array] (.mat)
 
 These files can be loaded directly into Graphia navigating to File > Open or by clicking the open icon in the top left of the toolbar.
-TO-DO: IMAGE
+![]({{ site.url }}/guide/assets/s3-1.png)
