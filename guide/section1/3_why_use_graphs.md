@@ -4,7 +4,7 @@ Graphs provide a fast and powerful medium with which to represent and explore ma
 
 Rendering data as graph, also allows an analyst to exploit their greatest asset, their innate ability to interpret the world through what they see, i.e. their cognitive skills.
 
-TO-DO: IMAGE
+![]({{ site.url }}guide/assets/s1-3.png)
 
 As well as their visual appeal, converting your data to a graph allows you to leverage the entire mathematical field of graph theory. This renders a large toolkit of metrics and algorithms at your disposal.
 
