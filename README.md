@@ -1,3 +1,7 @@
+---
+title: Graphia - Clarity from Complexity
+---
+
 <p align="center">
 	<img src="{{site.baseurl}}/assets/graphiaicon.png"/>
 </p>
