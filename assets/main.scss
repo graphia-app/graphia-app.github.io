@@ -17,15 +17,10 @@ $on-laptop:        900px !default;
     padding: 0 8px 0 0;
 }
 
-// Reduce padding before banner
-.page-content
-{
-    padding-top: 4px;
-}
-
 #banner
 {
     width: 100%;
+    margin-top: -26px;
     padding-bottom: 20px;
 }
 
