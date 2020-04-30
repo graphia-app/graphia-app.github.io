@@ -1,6 +1,24 @@
+title: "Graphia"
+author: © 2020 The Graphia Company Ltd.
+logo: "/assets/logo.png"
+email: info@graphia.app
+description: Graphia is a visualisation tool for the creation and analysis of graphs.
+
+lang: en_GB
+
+baseurl: ""
+url: "https://graphia.app"
+
+github_username: graphia-app
+
 theme: minima
-title: "Graphia - Clarity from Complexity"
+
 header_pages:
   - download.md
   - example-data.md
   - userguide.md
+
+google_analytics: UA-164944155-1
+
+plugins:
+  - jekyll-seo-tag

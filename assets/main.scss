@@ -1,0 +1,70 @@
+---
+---
+$content-width:    900px !default;
+$on-palm:          600px !default;
+$on-laptop:        900px !default;
+
+@import "minima";
+
+// Logo before the site title
+.site-title:before
+{
+    content: url("/assets/logo.png");
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: sub;
+    padding: 0 8px 0 0;
+}
+
+// Reduce padding before banner
+.page-content
+{
+    padding-top: 4px;
+}
+
+#banner
+{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+// Pseudo <hr> under every <h2>
+h2
+{
+    border-bottom: 1px solid #ccc;
+}
+
+// Centre all images
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Prevent horizontal scrollbar appearing
+html, body
+{
+    overflow-x: hidden;
+}
+
+// Trick/hack to escape a parent element;
+// centre left hand edge in parent, then apply left hand margin of -50% viewport
+.full-width
+{
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	margin-left: -50vw;
+}
+
+// Hide the banner when on mobile
+@media (max-width: $on-palm)
+{
+    .full-width
+    {
+        display: none !important;
+    }
+}
+
