@@ -2,7 +2,7 @@
 title: Example Datasets
 ---
 
-Below are a number of example datasets from different sources and saved in a variety of supported formats that can be used to explore Graphia's functionality.
+Below are a number of example datasets that are derived from various different sources. They are presented in a range of supported formats and may be used to explore Graphia's functionality.
 
 ## **Biology**
 
