@@ -10,6 +10,7 @@ baseurl: ""
 url: "https://graphia.app"
 
 github_username: graphia-app
+slack_instancename: graphia
 
 theme: minima
 
