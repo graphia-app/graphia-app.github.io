@@ -62,4 +62,4 @@ Upon starting Graphia for the first time, you will be presented with a short tut
 </div>
 
 If Graphia proves useful to you, we'd appreciate it if you would consider donating to the project.
-{% include_relative donate.html %}
+{% include donate.html %}

@@ -77,7 +77,7 @@ Please contact: <info@graphia.app>
 
 If you use Graphia and would like to support the project, we would very much appreciate and gratefully accept donations.
 
-{% include_relative donate.html %}
+{% include donate.html %}
 
 Please help us to help you!
 
