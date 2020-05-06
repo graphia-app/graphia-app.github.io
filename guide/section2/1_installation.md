@@ -4,17 +4,10 @@ title: Installation
 
 ## Download
 
-To download the software, please go to Downloads section to locate installers for your system. Once downloaded follow the onscreen instructions.
+To download the software, please go to the [Download]({{site.baseurl}}/download.html) section. Once downloaded, install as normal for your platform.
 
 ## Requirements
 
-Graphia is platform independent and runs on Windows, MacOS or Linux operating systems. To get the most out of Graphia we recommend a dedicated graphics card
+Graphia runs on Windows, MacOS or Linux operating systems. To get the most out of Graphia we recommend a standalone graphics card, as opposed to one built into your computer's motherboard. These are typically powered by Intel chipsets and _generally speaking_ are the inferior option when it comes to rendering data.
 
-For analysis of big graphs we recommend the following or better:
-- Quad-core CPU (Intel i5-4xxx / AMD FX6300 or greater)
-- Dedicated Graphics Card (Nvidia GTX 960 / AMD R9 280X or greater)
-- 16GB RAM
-
-Graphia can run on less capable hardware, with small to medium sized graphs.  However, poor hardware may limit the amount of data that can be loaded, the size and speed at which a graph is rendered and fluidity of user interactions. 
-
-You will also require a 3-button mouse, and more than one screen is not necessary but useful
+Graphia will run on virtually all modern desktop hardware with small to medium sized graphs, and as such there is no minimum hardware requirement per se. However, lower end hardware may limit the amount of data that can be loaded, the size and speed at which a graph is rendered, and fluidity of user interactions. Graphia will take advantage of all available memory, multicore CPU technology, and any available graphics hardware, so to maximise the size of the data you can load, we recommend spending as much as your budget allows on the aforementioned areas.

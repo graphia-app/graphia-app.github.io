@@ -9,7 +9,7 @@ title: User Guide
   </li>
 {% endfor %}
 
-## Graphia - Getting Started
+## Getting Started
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section2'" %}
 {% for entry in pages %}
   <li>
@@ -17,7 +17,7 @@ title: User Guide
   </li>
 {% endfor %}
 
-## Graphia - Graph Analysis
+## Graph Analysis
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section3'" %}
 {% for entry in pages %}
   <li>
@@ -25,7 +25,7 @@ title: User Guide
   </li>
 {% endfor %}
 
-## Graphia - Correlation Network Analysis (Numerical Data)
+## Correlation Network Analysis (Numerical Data)
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section4'" %}
 {% for entry in pages %}
   <li>
