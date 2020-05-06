@@ -87,10 +87,14 @@ html, body
 .download-button
 {
     display: inline;
-    border-radius: 5px;
-    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EB5;
+    border-radius: 9px;
+    padding: 5px 10px 5px 10px;
     margin: 5px;
-    background: #FFCC00;
+    background: #FC7;
+    color: #048;
     white-space: nowrap;
 }
 
