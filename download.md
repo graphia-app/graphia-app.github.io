@@ -1,5 +1,5 @@
 ---
-title: Download
+title: Downloads
 ---
 
 {% include download-button.html %}
