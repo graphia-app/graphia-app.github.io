@@ -1,0 +1,39 @@
+<div class="downloads">
+<h3 id="graphia-for-windows" class="download-button-wrapper">
+<a class="download-button" href="{{site.downloads.windows}}">Windows Installer</a>
+</h3>
+<h3 id="graphia-for-macos" class="download-button-wrapper">
+<a class="download-button" href="{{site.downloads.macos}}">MacOS Disk Image</a>
+</h3>
+<h3 id="graphia-for-linux" class="download-button-wrapper">
+<a class="download-button" href="{{site.downloads.linux}}">Linux AppImage</a>
+</h3>
+</div>
+
+<script>
+function hide(element)
+{
+    document.getElementById(element).style.display = "none";
+}
+
+function show(element)
+{
+    document.getElementById(element).style.display = "inline-block";
+}
+
+if(navigator.platform.toLowerCase().includes("win"))
+{
+    hide("graphia-for-macos");
+    hide("graphia-for-linux");
+}
+else if(navigator.platform.toLowerCase().includes("nux"))
+{
+    hide("graphia-for-windows");
+    hide("graphia-for-macos");
+}
+else if(navigator.platform.toLowerCase().includes("mac"))
+{
+    hide("graphia-for-windows");
+    hide("graphia-for-linux");
+}
+</script>
