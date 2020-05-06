@@ -10,11 +10,11 @@ There is often confusion between the terms, graph, plot and chart, which are fre
 Graphs are a means of describing any set of relationships or associations between entities. For example, they can be used to represent communication networks, customer-client interactions, social media contacts, language structure, financial transactions or biological data. The area of mathematics focused on graphs is known as graph theory.
 
 ![]({{ site.baseurl }}/guide/assets/s1-1.png)
-_A simple graph._
+<div class="caption">A simple graph.</div>
 
 Nodes and edges are abstractions of real world data. Nodes represent entities, while edges represent relationships between them. Additional information may be associated with the nodes or edges of a graph. In Graphia we call this information attribute data. For example if a node represents a person, we might also have attributes describing their age, height, diet, etc.. Similarly, the relationship between each person is represented by an edge, and an edge attribute could refer to the nature of that relationship, for example sibling or coworker. It is common to want to understand the structure of the relationships observed, in the context these data, i.e. does an observed grouping of individuals share a particular attribute or characteristic?
 
 One of the best known examples of a graph is the map of the London Underground. The now iconic representation of stations (nodes) and underground lines (edges), simplified travel and improved route planning across the city for everyone.
 
 ![]({{ site.baseurl }}/guide/assets/s1-2.png)
-_Edge length is not representative of geographic distance, nor does the position of a station exactly match its geographical location. Instead the map strictly represents the stations and how they are connected._
+<div class="caption">Edge length is not representative of geographic distance, nor does the position of a station exactly match its geographical location. Instead the map strictly represents the stations and how they are connected.</div>

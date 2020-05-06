@@ -11,14 +11,14 @@ Once running Graphia, you will be greeted with an introductory dataset and a sim
 Central to the main window is the graph display. In this context data can be explored, selected, removed, searched and visualised. Millions of data points and relationships can be viewed at one time, or small areas of the graph may be focused upon.
 
 ![]({{ site.baseurl }}/guide/assets/s2-1.png)
-_The nodes highlighted in white have been selected and the attribute table below shows their names and attributes._
+<div class="caption">The nodes highlighted in white have been selected and the attribute table below shows their names and attributes.</div>
 
 ## Node Attribute Table
 
 The node attribute table displays the attribute information associated with the selected nodes. Columns of data can be hidden from view and selections exported as a table. In the case of the tutorial data, each node is associated with the name of a station plus some additional calculated attributes based on the generated graph.
 
 ![]({{ site.baseurl }}/guide/assets/s2-2.png)
-_Node attribute table for the London Underground map._
+<div class="caption">Node attribute table for the London Underground map.</div>
 
 ## Toolbar
 Along the top of the window is the tool bar, for quick access to frequently used features. These functions can also be accessed through use the menu bar or using hotkeys.
@@ -26,7 +26,7 @@ Along the top of the window is the tool bar, for quick access to frequently used
 By default extended tool tips are displayed when the mouse is hovered over elements of the user interface. These can be disabled via the Options window.
 
 ![]({{ site.baseurl }}/guide/assets/s2-3.png)
-_Hover over menu item or question mark symbols to display more information about a feature._
+<div class="caption">Hover over menu item or question mark symbols to display more information about a feature.</div>
 
 ## Setting Layout Preferences
 
@@ -52,7 +52,7 @@ You can interact with the graph directly using your mouse.
 There are two graph visualisation modes. Overview Mode provides a view of the entire graph and all its components. Component Mode provides a focused view on a particular graph component or a node within it. For example there are two components contained within London Transport graph, one is the London tube map, the second is the Riverbus network. These are displayed as separate components in overview mode as they are not connected to each other.
 
 ![]({{ site.baseurl }}/guide/assets/s2-5.png)
-_Overview mode on the left. Component mode on the right, focused on a particular component. To move between components click on the arrows on the left and right of the screen and to return to overview mode click on the icon on the bottom of the screen (red oval)._
+<div class="caption">Overview mode on the left. Component mode on the right, focused on a particular component. To move between components click on the arrows on the left and right of the screen and to return to overview mode click on the icon on the bottom of the screen (red oval).</div>
 
 You can interact with nodes by clicking on them with your mouse:
 

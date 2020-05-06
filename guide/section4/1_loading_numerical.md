@@ -9,7 +9,7 @@ For datasets of numerical values arranged in columns and rows, it may not be obv
 In order to leverage correlation analysis the data must be formatted into a either a Comma Separated Values (.csv), Tab Separated Values (.tsv) or an Excel Files (.xlsx). These files must be structured to be 'correlation-ready'.
 
 ![]({{ site.baseurl }}/guide/assets/s4-1.png)
-_Format of a 'correlation analysis ready' file and saved as a .csv file_
+<div class="caption">Format of a 'correlation analysis ready' file and saved as a .csv file</div>
 
 A correlation ready file consists of a header of column IDs, then a series of rows with each row representing a node (or entity). The first column should be a unique identifier for each entity. The next set of columns should describe attribute values associated with that entity. The final set of columns should be the numerical attribute data which will be used to perform the correlation analysis. Similarly columns of data should begin a unique identifier (row 1), include attribute data (where available), followed by the numerical values.
 
@@ -26,7 +26,7 @@ Upon loading a table of numbers, you will be presented with the correlation wiza
 ## Data Selection
 
 ![]({{ site.baseurl }}/guide/assets/s4-2.png)
-_Data selection page with a numerical frame selected highlighted in blue and transpose option framed in red._
+<div class="caption">Data selection page with a numerical frame selected highlighted in blue and transpose option framed in red.</div>
 
 The Data Selection page contains a number of options to adjust the graph output from the file. Graphia automatically detects where the numerical data begins, i.e. the data frame (highlighted) from the input file. You can click on cells to add or remove rows and columns from the analysis if the data frame has not been selected as desired.
 
@@ -35,7 +35,7 @@ This page also gives you the option to transpose the data, if you wish to set th
 ## Correlation
 
 ![]({{ site.baseurl }}/guide/assets/s4-3.png)
-_Plot of predicted graph size based on correlation threshold. As initial threshold increases, the number of nodes and edges in the resultant graph decreases._
+<div class="caption">Plot of predicted graph size based on correlation threshold. As initial threshold increases, the number of nodes and edges in the resultant graph decreases.</div>
 
 The distribution and number of correlation values for a given dataset is defined primarily by a number of variables:
 - **Number of Columns** - the smaller the number, the more likely things are correlated purely by chance, i.e. you will need to select a high r-threshold value. 
@@ -57,7 +57,7 @@ Once thresholds are selected click Next.
 This provides a number of options to adjust the data values contained within your selected data frame.
 
 ![]({{ site.baseurl }}/guide/assets/s4-5.png)
-_This page provides the means to impute, log/antilog transform or normalise input data prior to the calculation of the correlation matrix._
+<div class="caption">This page provides the means to impute, log/antilog transform or normalise input data prior to the calculation of the correlation matrix.</div>
 
 - Imputation (only displayed when needed) allows you to replace missing values in the dataset (empty cells) with a constant or interpolated value.
 - Scaling scales the values within the data-frame, this is useful if you use logarithmic or exponential data.
@@ -69,13 +69,13 @@ If these settings are adjusted you may want to return to the correlation plot to
 This allows you to add some of the most common transforms to the graph. Transforms can be added or removed later once a graph has been generated.
 
 ![]({{ site.baseurl }}/guide/assets/s4-6.png)
-_This page provides the means to apply graph transforms prior to visualisation of the graph._
+<div class="caption">This page provides the means to apply graph transforms prior to visualisation of the graph.</div>
 
 ## Summary
 The final page provides a look at all the parameters set before correlation occurs. These options can be copied and pasted for provenance of your analysis. 
 
 ![]({{ site.baseurl }}/guide/assets/s4-7.png)
-_The Summary lists all the pre-analysis data transforms that have been applied during the previous steps._
+<div class="caption">The Summary lists all the pre-analysis data transforms that have been applied during the previous steps.</div>
 
 Please note: Should your selected settings for graph construction result in a massive graph, i.e. one that is likely to exhaust your computer's memory or graphics card, the following message will be displayed:
 
