@@ -1,6 +1,8 @@
 ---
 title: A Short Introduction to Graphs
 ---
+
+## Introduction
 Many types of data are best understood when represented and analysed as a graph. Fundamentally, graphs are structures comprised of nodes and edges, where the nodes represent entities and the edges represent relationships between said nodes. Graphs may be used as a powerful medium to understand complex data or systems. When data is visualised as a graph, large amounts of information can be explored on a global or local scale.
 
 For many reading this, graph based analysis approaches may be relatively unfamiliar. The purpose of these pages is therefore to introduce various ideas and concepts of this approach to data analysis and demonstrate how graph analysis can be used. In so doing, we hope to be able to show you how graph analysis could allow you interact and understand your complex data in a completely different way.

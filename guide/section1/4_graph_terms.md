@@ -2,7 +2,7 @@
 title: Graph Terms and Concepts
 ---
 
-## Graph layout
+## Graph Layout
 Graph layout is the process of physically placing nodes and edges in space, for the purposes of visualising data structure. In other words, ordering the information for visual inspection
 
 Graphs may be drawn manually, placing nodes and edges in specific positions. In the case of the London Underground map for example, node positions do not represent the actual geographical position of a station, but rather are approximations, stations being placed in a way designed to make the map easier to read and interpret.
@@ -11,7 +11,7 @@ For most networks however, graph layout is achieved by means of a layout algorit
 
 It should be noted that the layout of a graph does not affect its properties, i.e. nodes still have the same number of edges and they connect in the same way, only how the information is displayed is different.
 
-## Node degree
+## Node Degree
 
 Simply put, node degree is the number of edges a node has. In directed graphs, you may talk about a node's 'in degree' or 'out degree', referring to the edges that point at it or away from it respectively. The number and distribution of edges across a graph determines its topology.
 
