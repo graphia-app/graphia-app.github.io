@@ -1,5 +1,6 @@
 ---
 title: Loading Numerical Data
+next: 2_analyses_steps
 ---
 
 ## Numerical Data
@@ -84,3 +85,5 @@ Please note: Should your selected settings for graph construction result in a ma
 Ignore this warning at your peril!
 
 Clicking Finish begins the computation of the initial graph visualised using settings provided by the user. Clicking Confirm at any point during data entry will skip to the Summary page using the current settings.
+
+{% include guide-nav.html %}

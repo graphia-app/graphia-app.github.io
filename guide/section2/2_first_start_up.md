@@ -1,5 +1,7 @@
 ---
 title: First Start
+prev: 1_installation
+next: 3_what_type_graphia
 ---
 
 ## First Start 
@@ -71,3 +73,4 @@ Graphia has multiple ways to find nodes. Selecting Find from the Edit menu allow
 
 We provide a number of example files for you to download and explore on our [Example Datasets]({{site.baseurl}}/example-data.html) page.
 
+{% include guide-nav.html %}

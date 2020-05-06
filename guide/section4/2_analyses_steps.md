@@ -1,5 +1,6 @@
 ---
 title: Correlation Analysis Steps
+prev: 1_loading_numerical
 ---
 
 ## Correlation Analysis
@@ -50,3 +51,5 @@ Having clustered a graph the next thing is to view the profile of those clusters
 Graphia is designed to let a user quickly explore data clusters, defining what is interesting and what is 'noise'. Having selected a specific cluster, individual data points within that cluster may be selected in the attribute table. By scrolling up and down with the arrow keys, individual nodes within the selection are highlighted, and their data profiles displayed in the plot. After an initial analysis it may be necessary to look again at the input data, possibly recalculating values or removing data that is not of interest, therefore focusing an analysis on what is interesting.
 
 _**Graphia is designed to allow you to explore, analyse and interrogate data, it is up to you how you do this and what you do with the insights obtained.**_
+
+{% include guide-nav.html %}

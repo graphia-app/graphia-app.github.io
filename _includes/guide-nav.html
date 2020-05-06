@@ -1,0 +1,13 @@
+<div class="guide-nav">
+{% if page.prev %}
+<a class="guide-nav-button" rel="prev" href="{{page.prev}}.html">&larr; Previous</a>
+<div class="guide-nav-filler"></div>
+{% endif %}
+
+<a class="guide-nav-button" href="{{site.baseurl}}/userguide.html">Index</a>
+
+{% if page.next %}
+<div class="guide-nav-filler"></div>
+<a class="guide-nav-button" rel="next" href="{{page.next}}.html">Next &rarr;</a>
+{% endif %}
+</div>

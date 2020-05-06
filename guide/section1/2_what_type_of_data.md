@@ -1,5 +1,7 @@
 ---
 title: What Type of Data Can I Explore and Analyse?
+prev: 1_graph_introduction
+next: 3_why_use_graphs
 ---
 
 ## Types of Data
@@ -12,3 +14,5 @@ Other types of data take the form of a numerical table of measurements defined a
 <div class="caption">Correlation network analysis of single cell data: each node represents a cell, their colour is based on a cluster analysis of the graph.</div>
 
 Depending on the input data, graphs can grow to be very large. Graphia has been specifically designed to visualise and explore larger graphs, composed of millions of nodes and edges.
+
+{% include guide-nav.html %}

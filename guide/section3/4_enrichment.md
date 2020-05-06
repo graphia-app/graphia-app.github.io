@@ -1,5 +1,6 @@
 ---
 title: Enrichment Analysis
+prev: 3_saving
 ---
 
 ## Enrichment Analysis
@@ -22,3 +23,5 @@ When completed, you will be shown the Enrichment Results dialog. This will displ
 
 The heatmap displays the adjusted fisher's p-value in an easy to use form. Click a heatmap result to highlight the table entry. Only statistically significant values are coloured in the heatmap, values below the standard 0.05 threshold are shown in grey.
 By default only the **significantly enriched** results are displayed in the table. To show all enrichment results, regardless of significance, click the toolbar button on the top left of the results window.
+
+{% include guide-nav.html %}

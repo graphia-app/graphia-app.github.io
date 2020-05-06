@@ -1,5 +1,6 @@
 ---
 title: Loading Graph Data
+next: 2_transforms_visualisation_analyses
 ---
 
 ## Loading Graph Data
@@ -15,3 +16,5 @@ Graphia supports the following file formats:
 - MATLAB data files (.mat)
 
 These files can be loaded directly into Graphia navigating to File → Open or by clicking the open icon in the top left of the toolbar.
+
+{% include guide-nav.html %}

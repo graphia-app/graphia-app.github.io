@@ -1,5 +1,6 @@
 ---
 title: Graph Terms and Concepts
+prev: 3_why_use_graphs
 ---
 
 ## Graph Layout
@@ -34,4 +35,4 @@ One of the most useful approach to understanding the structure of a large graph 
 ![]({{ site.baseurl }}/guide/assets/s1-5.png)
 <div class="caption">A representation of a clustering.</div>
 
-
+{% include guide-nav.html %}

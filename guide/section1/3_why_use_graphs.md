@@ -1,5 +1,7 @@
 ---
 title: Why Use Graphs for Data Analysis?
+prev: 2_what_type_of_data
+next: 4_graph_terms
 ---
 
 ## Why Use Graphs?
@@ -12,3 +14,5 @@ Rendering data as graph also allows an analyst to exploit their greatest asset, 
 As well as their visual appeal, converting your data to a graph allows you to leverage the entire mathematical field of graph theory. This renders a large toolkit of metrics and algorithms at your disposal.
 
 Our graph based analysis methods have been used in hundreds of publications, from cutting edge genetic studies, to an analysis examining the trends in naming babies over many decades.
+
+{% include guide-nav.html %}

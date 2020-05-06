@@ -1,5 +1,7 @@
 ---
 title: Graph Transforms
+prev: 1_load_graph_data
+next: 3_saving
 ---
 
 ## Transforms
@@ -82,3 +84,5 @@ In the case of categorical attributes each attribute is assigned a colour, numer
 <div class="caption">A simple graph with colour, size and text visualisations applied to represent node degree (orthographic view).</div>
 
 Each visualisation operates within its domain and does not interfere with other visualisations of a different type, for example a colour visualisation will not interfere with a text visualisation. However two visualisations of the same type will overlap, with the last visualisation in the list taking precedence. Multiple visualisations of the same type can be in the same list without overlapping, assuming they apply to separate graph elements.
+
+{% include guide-nav.html %}

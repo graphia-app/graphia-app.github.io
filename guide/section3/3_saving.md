@@ -1,5 +1,7 @@
 ---
 title: Saving Graphs, Analysis Results and Data Visualisations
+prev: 2_transforms_visualisation_analyses
+next: 4_enrichment
 ---
 
 ## Saving
@@ -19,3 +21,5 @@ Tabular data can also be exported from the attribute viewer and the enrichment r
 
 ## Visualisations
 Graphia also has an image capture feature available from File → Save As Image… allowing you to capture a range of high resolution and publication ready images. To quickly share a normal resolution screenshot, Ctrl+C can be used to copy the current graph display to the clipboard.
+
+{% include guide-nav.html %}

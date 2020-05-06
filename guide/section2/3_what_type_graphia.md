@@ -1,5 +1,6 @@
 ---
 title: What Type of Data Can I Analyse with Graphia?
+prev: 2_first_start_up
 ---
 
 ## Graph Data
@@ -17,3 +18,5 @@ This is where correlation analysis comes in. Correlation analysis works to defin
 Correlation analysis can be used as basis to explore any table of numbers relating to any set of entities, whether they are discrete or continuous values. One of Graphia's unique selling points is its ability to calculate and render massive correlation graphs from big datasets.
 
 For more information on working with numerical data, see the Correlation Network Analysis section.
+
+{% include guide-nav.html %}

@@ -128,3 +128,14 @@ html, body
     font-style: italic;
     font-size: 12px;
 }
+
+.guide-nav
+{
+    display: flex;
+    width: 100%;
+}
+
+.guide-nav-filler
+{
+    flex-grow: 1;
+}

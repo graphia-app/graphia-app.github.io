@@ -1,5 +1,6 @@
 ---
 title: A Short Introduction to Graphs
+next: 2_what_type_of_data
 ---
 
 ## Introduction
@@ -20,3 +21,5 @@ One of the best known examples of a graph is the map of the London Underground. 
 
 ![]({{ site.baseurl }}/guide/assets/s1-2.png)
 <div class="caption">Edge length is not representative of geographic distance, nor does the position of a station exactly match its geographical location. Instead the map strictly represents the stations and how they are connected.</div>
+
+{% include guide-nav.html %}
