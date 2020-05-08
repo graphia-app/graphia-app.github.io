@@ -26,7 +26,8 @@ if(navigator.platform.toLowerCase().includes("win"))
     hide("graphia-for-macos");
     hide("graphia-for-linux");
 }
-else if(navigator.platform.toLowerCase().includes("nux"))
+else if(navigator.platform.toLowerCase().includes("nux") &&
+    !navigator.userAgent.toLowerCase().includes("android"))
 {
     hide("graphia-for-windows");
     hide("graphia-for-macos");
