@@ -25,7 +25,7 @@ plugins:
   - jekyll-seo-tag
 
 downloads:
-  windows: "https://github.com/graphia-app/graphia/releases/download/1.4/Graphia-1.4-installer.exe"
-  macos: "https://github.com/graphia-app/graphia/releases/download/1.4/Graphia-1.4.dmg"
-  linux: "https://github.com/graphia-app/graphia/releases/download/1.4/Graphia-1.4.tar.gz"
-  source: "https://github.com/graphia-app/graphia/tree/1.4"
+  windows: "https://github.com/graphia-app/graphia/releases/download/2.0/Graphia-2.0-installer.exe"
+  macos: "https://github.com/graphia-app/graphia/releases/download/2.0/Graphia-2.0.dmg"
+  linux: "https://github.com/graphia-app/graphia/releases/download/2.0/Graphia-2.0.tar.gz"
+  source: "https://github.com/graphia-app/graphia/tree/2.0"
