@@ -1,5 +1,8 @@
 <div class="full-width">
-<video id="banner" src="{{site.baseurl}}/assets/banner.webm" autoplay muted loop oncontextmenu="return false;"></video>
+<video id="banner" autoplay muted loop oncontextmenu="return false;">
+<source src="{{site.baseurl}}/assets/banner.webm" type="video/webm">
+<source src="{{site.baseurl}}/assets/banner.mp4" type="video/mp4">
+</video>
 </div>
 
 <div style="display: flex;">
