@@ -23,6 +23,7 @@ google_analytics: UA-164944155-1
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 downloads:
   windows: "https://github.com/graphia-app/graphia/releases/download/2.0/Graphia-2.0-installer.exe"
