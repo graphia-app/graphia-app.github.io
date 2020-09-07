@@ -77,6 +77,10 @@ Graphia is designed and built by a small dedicated group of scientists working i
 
 Our journey started 20 years ago, as we began to envisage how graphs could help us analyse the relationships between genes and proteins. Over this time we developed multiple tools and refined our approach, eventually arriving where we are today with Graphia. We believe it is the best option for interactively visualising large graphs.
 
+If you have used Graphia in a scientific publication, we would appreciate citations to the following paper:
+
+Tom C. Freeman, Sebastian Horsewell, Anirudh Patir, Josh Harling-Lee, Tim Regan, Barbara B. Shih, James Prendergast, David A. Hume, Tim Angus; [Graphia: A platform for the graph-based visualisation and analysis of complex data](https://www.biorxiv.org/content/10.1101/2020.09.02.279349v1)
+
 ## **Working with us**
 
 There are lots of new features and functionality we still wish to add to Graphia and envisage a desire from some to integrate it into local data infrastructures or web resources. If you are interested in working with us to further improve Graphia or need our help in other ways, we would love to hear from you.
