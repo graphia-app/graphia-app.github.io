@@ -81,6 +81,10 @@ If you have used Graphia in a scientific publication, we would appreciate citati
 
 Tom C. Freeman, Sebastian Horsewell, Anirudh Patir, Josh Harling-Lee, Tim Regan, Barbara B. Shih, James Prendergast, David A. Hume, Tim Angus; [Graphia: A platform for the graph-based visualisation and analysis of complex data](https://www.biorxiv.org/content/10.1101/2020.09.02.279349v1)
 
+## **Citations**
+
+Nicholas J Dimonaco, Mazdak Salavati, Barbara B Shih; [Computational Analysis of SARS-CoV-2 and SARS-Like Coronavirus Diversity in Human, Bat and Pangolin Populations](https://pubmed.ncbi.nlm.nih.gov/33396801/)
+
 ## **Working with us**
 
 There are lots of new features and functionality we still wish to add to Graphia and envisage a desire from some to integrate it into local data infrastructures or web resources. If you are interested in working with us to further improve Graphia or need our help in other ways, we would love to hear from you.
