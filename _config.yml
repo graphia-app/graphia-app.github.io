@@ -26,8 +26,8 @@ plugins:
   - jekyll-sitemap
 
 downloads:
-  windows: "https://github.com/graphia-app/graphia/releases/download/2.2/Graphia-2.2-installer.exe"
-  macos: "https://github.com/graphia-app/graphia/releases/download/2.2/Graphia-2.2.dmg"
-  linux: "https://github.com/graphia-app/graphia/releases/download/2.2/Graphia-2.2.tar.gz"
-  release: "https://github.com/graphia-app/graphia/releases/tag/2.2"
-  source: "https://github.com/graphia-app/graphia/tree/2.2"
+  windows: "https://github.com/graphia-app/graphia/releases/download/3.0-rc1/Graphia-3.0-rc1-installer.exe"
+  macos: "https://github.com/graphia-app/graphia/releases/download/3.0-rc1/Graphia-3.0-rc1.dmg"
+  linux: "https://github.com/graphia-app/graphia/releases/download/3.0-rc1/Graphia-3.0-rc1.tar.gz"
+  release: "https://github.com/graphia-app/graphia/releases/tag/3.0-rc1"
+  source: "https://github.com/graphia-app/graphia/tree/3.0-rc1"
