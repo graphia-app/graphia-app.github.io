@@ -7,7 +7,7 @@ prev: 1_loading_numerical
 
 From here on you may require many of Graphia's visualisation and analytical capabilities described in the previous section. In particular you may wish to:
 - Adjust the correlation threshold. Displayed at top right hand corner of the screen is a slider bar and text box for adjusting the display threshold between the minimum threshold and 1.
-- Cluster the graph. For correlation graphs we recommend use of the MCL algorithm.
+- Cluster the graph, if a clustering transform was not selected in the wizard.
 - Display the data values associated with clusters - see below.
 
 ![]({{ site.baseurl }}/guide/assets/s4-8.png)
@@ -32,23 +32,23 @@ By adjusting the cut-off value for edges, you can 'open up' the graph to reveal 
 
 ## Data Plot
 
-When performing a correlation analysis, a data plot is also displayed adjacent to the usual attribute table. This plot displays the data values associated with selected nodes. There are numerous options to change the appearance of this plot, these will be discussed below.
+When performing a correlation analysis, a data plot is also displayed adjacent to the usual attribute table. This plot displays the data values associated with selected nodes. There are numerous options to change the appearance of this plot, these are discussed below.
 
 ## Cluster Analysis
 
 Once a correlation graph has been generated, a common first step is to run a clustering algorithm. This partitions the graph into clusters based on the connectivity between nodes, with the result that entities with a similar data profile are located within the same cluster. For correlation graphs where the average node degree is high, we recommend the use of the MCL algorithm. The granularity setting for clustering can be adjusted on fly by use of the slider bar, such that the clustering reflects the visible graph structure. Once satisfied with the partition of a graph, a user can then rapidly explore the profile of the resulting clusters. 
 
-Go to Edit → Find by Attribute Value and the following user interface will appear in the top left of the window. This allows finding all the nodes which have a particular value for the selected attribute. In the context of clustering, this allows the user to scroll through the calculated clusters. Selecting the option to the right of the attribute selector allows finding of multiple clusters at once.
+Go to *Edit → Find by Attribute Value* and the following user interface will appear in the top left of the window. This allows finding all the nodes which have a particular value for the selected attribute. In the context of clustering, this allows the user to scroll through the calculated clusters. Multiple clusters can be selected at once using the option immediately to the right of the attribute selector; *Select Multiple*.
 
 ![]({{ site.baseurl }}/guide/assets/s4-12.png)
 <div class="caption">Gene correlation graph, following clustering. A single cluster (cluster 1) has been selected and its identity and properties are shown below in the attribute table window and its expression profile is plotted to the right. Each line represents the data associated with a single node.</div>
 
-Having clustered a graph the next thing is to view the profile of those clusters and there are numerous options available to do this:
+The data profile of the selected nodes is displayed in the lower right of the window. There are numerous options available to control this, examples of which are shown here:
 
 ![]({{ site.baseurl }}/guide/assets/s4-13.png)
-<div class="caption">Options for viewing cluster profile. (A) A single cluster with the profile of individual nodes on display. Hovering over a given data point will provide details. Note column annotations have been displayed under the line graph using the 'Select Visible Column Annotations' button and selecting those of interest. This allows easy alignment between known variables and the data; (B) Mean histogram of A; (C) IQR plot of A; (D) Mean line of two clusters (1,2) showing anti-correlation; (E) Combined plot of all clusters; (F) Various menu options accessed by right click on data plot window.</div>
+<div class="caption">Options for viewing cluster profile. (A) A single cluster with the profile of individual nodes on display. Hovering over a given data point will provide details. Note column annotations have been displayed under the line graph using the 'Select Visible Column Annotations' button and selecting those of interest. This allows easy alignment between known variables and the data; (B) Mean histogram of A; (C) IQR plot of A; (D) Mean line of two clusters (1,2) showing anti-correlation; (E) Combined plot of all clusters; (F) Various options accessed by the Plot menu.</div>
 
-Graphia is designed to let a user quickly explore data clusters, defining what is interesting and what is 'noise'. Having selected a specific cluster, individual data points within that cluster may be selected in the attribute table. By scrolling up and down with the arrow keys, individual nodes within the selection are highlighted, and their data profiles displayed in the plot. After an initial analysis it may be necessary to look again at the input data, possibly recalculating values or removing data that is not of interest, therefore focusing an analysis on what is interesting.
+Graphia is designed to let a user quickly explore data clusters, defining what is interesting and what is 'noise'. Having selected a specific cluster, individual data points within that cluster may be selected in the attribute table. By scrolling up and down within the data table, individual nodes are highlighted, and their data profiles displayed in the plot. After an initial analysis it may be necessary to look again at the input data, possibly recalculating values or removing data that is not of interest, therefore focusing an analysis on what is interesting.
 
 _**Graphia is designed to allow you to explore, analyse and interrogate data, it is up to you how you do this and what you do with the insights obtained.**_
 

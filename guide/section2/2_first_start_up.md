@@ -6,7 +6,7 @@ next: 3_what_type_graphia
 
 ## First Start 
 
-Once running Graphia, you will be greeted with an introductory dataset and a simple tutorial. This tutorial dataset uses a graph of the London Underground and Riverbus Networks. The tutorial will guide you through simple interactions with the graph. Once closed, you can reopen the tutorial by going to Help → Show Tutorial.
+Once running Graphia, you will be greeted with an introductory dataset and a simple tutorial. This tutorial dataset uses a graph of the London Underground and Riverbus Networks. The tutorial will guide you through simple interactions with the graph. Once closed, you can reopen the tutorial by going to *Help → Show Tutorial*.
 
 ## Main Window
 

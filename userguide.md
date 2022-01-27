@@ -25,7 +25,7 @@ title: User Guide
   </li>
 {% endfor %}
 
-## Correlation Network Analysis (Numerical Data)
+## Correlation Network Analysis (Tabular Data)
 {% assign pages = site.pages | where_exp: "item", "item.url contains 'section4'" %}
 {% for entry in pages %}
   <li>
