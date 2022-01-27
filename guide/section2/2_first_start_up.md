@@ -4,7 +4,7 @@ prev: 1_installation
 next: 3_what_type_graphia
 ---
 
-## First Start 
+## First Start
 
 Once running Graphia, you will be greeted with an introductory dataset and a simple tutorial. This tutorial dataset uses a graph of the London Underground and Riverbus Networks. The tutorial will guide you through simple interactions with the graph. Once closed, you can reopen the tutorial by going to *Help → Show Tutorial*.
 
@@ -42,7 +42,7 @@ Graphia supports graph visualisation in both 2D and 3D. Options for setting visu
 
 The size and colour of nodes and edges may be set to suit the preferences of the user in the Options Window, accesible via the Edit menu or from the corresponding toolbar button.
 
-## Graph Navigation 
+## Graph Navigation
 Graphs may be large and complex structures. To understand such complexity a user needs to be able find their way around them. Graphia allows a user to view a graph from any angle, zoom in on a given node or pan out or view a graph as a whole.
 
 You can interact with the graph directly using your mouse.

@@ -29,11 +29,11 @@ From here you are presented with a list of all transforms available, separated b
 - **Metrics**: introduce new attributes that measure elements' placement within the graph
 - **Structural**: change the structure of a graph in various ways
 
-Some transforms provide the option to automatically apply a visualisation after adding. Clicking OK will finalise the transform and add it to the Graph. We describe some of the most commonly used transforms below. 
+Some transforms provide the option to automatically apply a visualisation after adding. Clicking OK will finalise the transform and add it to the Graph. We describe some of the most commonly used transforms below.
 
 ## Clustering
 
-Clustering is the act of dividing a graph up into groups of nodes based on their position within the overall topology of the graph. These are referred to as clusters. Clustering seeks to divide the graph into communities that are likely to possess similar properties or characteristics. Graphia incorporates two of the most widely used algorithms for performing this analysis, the Markov Clustering (MCL) and Louvain clustering algorithms. Both include the option to change the granularity of clustering, i.e. how many clusters are formed. There is no simple answer to the question of what the correct clustering of a graph is, but good visualisation allows one to look at the results of a cluster analysis and how it maps on to a graph's structure. Once data has been clustered, clusters can be analysed by enrichment analysis to see if there are any node attributes over-represented within the groups. 
+Clustering is the act of dividing a graph up into groups of nodes based on their position within the overall topology of the graph. These are referred to as clusters. Clustering seeks to divide the graph into communities that are likely to possess similar properties or characteristics. Graphia incorporates two of the most widely used algorithms for performing this analysis, the Markov Clustering (MCL) and Louvain clustering algorithms. Both include the option to change the granularity of clustering, i.e. how many clusters are formed. There is no simple answer to the question of what the correct clustering of a graph is, but good visualisation allows one to look at the results of a cluster analysis and how it maps on to a graph's structure. Once data has been clustered, clusters can be analysed by enrichment analysis to see if there are any node attributes over-represented within the groups.
 
 ## Edge Reduction
 
@@ -52,7 +52,7 @@ The filter transforms allows a user to remove nodes or edges based on their attr
 ## Metrics
 Graphia includes three metrics for analysing a graphs structure:
 - **Betweenness**: centrality is a measure of centrality in a graph based on the shortest paths between nodes. The betweeness centrality is the number of these shortest paths that pass through the node.
-- **Eccentricity**: calculates the shortest path between every node and assigns the longest path length found for each node. This is a measure of a node's position within the overall graph structure. 
+- **Eccentricity**: calculates the shortest path between every node and assigns the longest path length found for each node. This is a measure of a node's position within the overall graph structure.
 - **PageRank**: is an algorithm used originally to measure the importance of website pages. PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important a node is.
 
 ![]({{ site.baseurl }}/guide/assets/s3-6.png)

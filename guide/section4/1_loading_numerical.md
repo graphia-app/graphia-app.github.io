@@ -13,15 +13,15 @@ In order to leverage correlation analysis, the source data must be formatted int
 
 A correlation file consists of a header of column names, then a series of rows with each row representing some entity, that will ultimately correspond to a node. The first column should be a unique identifier for each of these entities (*Row ID*). The next set of columns should describe attribute values associated with that entity (*Row Attributes*). Similarly columns of data should begin with a unique identifier (*Column ID*), then optionally annotation data where available (*Column Annotations*), ending with the data values. This should be the actual data values which will be used to perform the correlation analysis (*Numerical Data Table*). Usually it contains numerical values, but discrete/categorical data can also be used.
 
-Once your data is in this form, simply open the file in Graphia by navigating to *File → Open* or by clicking the file open toolbar button. 
+Once your data is in this form, simply open the file in Graphia by navigating to *File → Open* or by clicking the file open toolbar button.
 
 ## Generation of Correlation Graphs
 
 A correlation matrix is notionally calculated, whereby both axes list the entities being compared, and the intersecting cells contain the correlation scores. In practice this matrix is unreasonably large and thus does not actually exist, but it can be helpful to conceptualise the process. The resulting graph is essentially equivalent to the matrix, but much easier for a human being to interpret. Most commonly the scores in the similarity matrix are calculated using the Pearson correlation coefficient, but various correlation measures are available, including those used for discrete correlation such as Jaccard.
 
-In order to turn numerical data into a graph and identify data patterns and trends therein, Graphia compares the numerical values (data series) associated with each entity, with those associated with every other entity, in an all vs. all comparison. In other words, it makes a list of correlations ranging from -1 (perfect anti-correlation) to +1 (perfect correlation). The bigger the data series, i.e. the number of measurements it contains, the less likely any entity will be correlated to another purely by chance. 
+In order to turn numerical data into a graph and identify data patterns and trends therein, Graphia compares the numerical values (data series) associated with each entity, with those associated with every other entity, in an all vs. all comparison. In other words, it makes a list of correlations ranging from -1 (perfect anti-correlation) to +1 (perfect correlation). The bigger the data series, i.e. the number of measurements it contains, the less likely any entity will be correlated to another purely by chance.
 
-After opening a table of data, you will be presented with the correlation wizard. To set up an analysis you will be guided through a variety of options that set up the parameters for the analysis. 
+After opening a table of data, you will be presented with the correlation wizard. To set up an analysis you will be guided through a variety of options that set up the parameters for the analysis.
 
 ## Data Selection
 
@@ -37,8 +37,8 @@ This page also gives you the option to transpose the data, if you wish to set th
 <div class="caption">Plot of predicted graph size based on correlation threshold. As initial threshold increases, the number of nodes and edges in the resultant graph decreases.</div>
 
 The distribution and number of correlation values for a given dataset is defined primarily by a number of variables:
-- **Number of Columns**: the smaller the number, the more likely things are correlated purely by chance, i.e. you will need to select a high r-threshold value. 
-- **Data Structure**: if there are many patterns in the data it will increase the number of highly connected cliques in the data and therefore the number of edges. Also if the data describes the same or similar entities many times over, edge numbers may again be very high. 
+- **Number of Columns**: the smaller the number, the more likely things are correlated purely by chance, i.e. you will need to select a high r-threshold value.
+- **Data Structure**: if there are many patterns in the data it will increase the number of highly connected cliques in the data and therefore the number of edges. Also if the data describes the same or similar entities many times over, edge numbers may again be very high.
 - **Noise**: the noisier (more random) a dataset the less it will correlate.
 - **Number of Rows**: this directly influences the absolute number of calculations that need to be performed but not the distribution of results.
 
@@ -62,7 +62,7 @@ The final pages of the wizard include *Initial Transforms*, which as its name su
 
 Please note, should your selected settings for graph construction result in a large graph, the following message will be displayed:
 
-> 'WARNING: This is a very large graph which has the potential to exhaust system resources and lead to instability or freezes. Increasing the Minimum Correlation Value will usually reduce the graph size.' 
+> 'WARNING: This is a very large graph which has the potential to exhaust system resources and lead to instability or freezes. Increasing the Minimum Correlation Value will usually reduce the graph size.'
 
 Ignore this warning at your peril!
 

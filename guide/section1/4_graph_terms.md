@@ -16,7 +16,7 @@ It should be noted that the layout of a graph does not affect its properties, i.
 
 Simply put, node degree is the number of edges a node has. In directed graphs, you may talk about a node's 'in degree' or 'out degree', referring to the edges that point at it or away from it respectively. The number and distribution of edges across a graph determines its topology.
 
-## Topology 
+## Topology
 
 A graph's topology or structure is dependent on the source of data it represents and how nodes are connected to one another. Ultimately, this affects the appearance of the graph or its 'shape'. Nodes with many edges may represent hubs and big graphs may look like 'hairballs'. Alternatively, they may be highly structured entities with numerous areas of high connectivity leading to cliques within the graph structure. You can tell a lot about a given set of data by the topology of the graph it forms.
 
