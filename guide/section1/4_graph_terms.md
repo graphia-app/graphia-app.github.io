@@ -32,7 +32,7 @@ Each node or edge may be associated with additional information, called attribut
 
 One of the most useful approach to understanding the structure of a large graph is to perform a cluster analysis. Clustering is the process of dividing a graph into groups of nodes called clusters, based on their relative position within the overall topology of the graph. The theory being that areas of a graph represent communities where nodes possess similar properties or characteristics. There are numerous algorithms available to analyse graphs in this way, and they often have parameters to change the granularity of clustering. There is no simple answer to the question of what the 'correct' clustering of a graph is, but good visualisation allows one to use the results of a cluster analysis as a guide to see how it maps on to a graph's structure.
 
-![]({{ site.baseurl }}/guide/assets/s1-5.png)
+![]({{ site.baseurl }}/guide/assets/clustering.png)
 <div class="caption">A representation of a clustering.</div>
 
 {% include guide-nav.html %}
