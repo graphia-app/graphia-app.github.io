@@ -1,6 +1,6 @@
 ---
 title: Loading Graph Data
-next: 2_transforms_visualisation_analyses
+next: 2_transforms
 ---
 
 ## Loading Graph Data
