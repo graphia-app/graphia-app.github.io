@@ -5,6 +5,7 @@ title: Downloads
 {% include download-button.html %}
 
 <div class="downloads">
+<p><a href="{{site.downloads.release}}">Release Notes</a></p>
 <p><a href="{{site.downloads.source}}">Source Code</a></p>
 <p><a id="show-other-platforms" href="#">Other Platforms</a></p>
 </div>
