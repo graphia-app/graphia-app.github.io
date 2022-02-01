@@ -20,7 +20,7 @@ Some attributes can be edited. Generally speaking these are the user defined att
 ![]({{ site.baseurl }}/guide/assets/edit-attribute.png)
 <div class="caption">Edit Attribute dialog.</div>
 
-This can be used in conjunction with the clone funcionality in order to facilitate the annotation of clusters. For example, following the application of a cluster transform such as *Louvain*, its resulting attribute may be cloned. Thereafter, this cloned attribute can be edited and the *Edit All Shared Values* option chosen. This effectively allows for the bulk editing of the cluster names, in this case replacing e.g. "Cluster 1" with a meaninful name that reflects its function or association within the data. Note that if the clustering parameters are subsequently altered, e.g. its granularity is changed, the manually cloned attribute with the annotation edits is **not** automatically updated to reflect any cluster changes.
+This can be used in conjunction with the clone funcionality in order to facilitate the annotation of clusters. For example, a cluster transform such as *Louvain* can be performed and its resulting attribute cloned. Thereafter, this cloned attribute can be edited and the *Edit All Shared Values* option chosen. This allows for the bulk editing of the cluster names, in this case replacing e.g. "Cluster 1" with a meaningful name that reflects its function or association within the data. Note that if the clustering parameters are subsequently altered, e.g. its granularity is changed, the manually cloned attribute with the annotation edits is **not** automatically updated to reflect any cluster changes.
 
 ## Importing Attributes
 
