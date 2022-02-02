@@ -12,7 +12,7 @@ Below are a number of example datasets that are derived from various different s
 
 This is the dataset that started it all off. It is a microarray analysis of gene expression across 61 mouse tissues. It consists of over 36,000 measurements taken across 122 samples of embryonic and adult mouse samples. It represents one of the first ‘big’ gene expression datasets in biology and was originally published by Su _et al._ back in 1994 [PNAS, 101: 6062](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC395923/). The frustrations of trying to analyse these data using conventional bioinformatics approaches were what drove us to develop the gene correlation network analysis approach incorporated into Graphia.
 
-[Download Mouse Tissue]({{ site.baseurl }}/datasets/mouse_tissue_atlas.zip)
+[Download Mouse Tissue]({{ site.baseurl }}/datasets/mouse_tissue_atlas.csv)
 
 ### **Mouse Gene Clusters** – Weighted Pairwise Text (.txt)
 
