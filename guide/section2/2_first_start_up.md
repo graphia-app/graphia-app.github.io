@@ -12,14 +12,14 @@ Once running Graphia, you will be greeted with an introductory dataset and a sim
 
 Central to the main window is the graph display. In this context data can be explored, selected, removed, searched and visualised. Millions of data points and relationships can be viewed at one time, or small areas of the graph may be focused upon.
 
-![]({{ site.baseurl }}/guide/assets/main-window.png)
+![]({{ site.url }}/guide/assets/main-window.png)
 <div class="caption">The nodes highlighted in white have been selected and the attribute table below shows their names and attributes.</div>
 
 ## Node Attribute Table
 
 The node attribute table displays the attribute information associated with the selected nodes. Columns of data can be hidden from view and selections exported as a table. In the case of the tutorial data, each node is associated with the name of a station plus some additional calculated attributes based on the generated graph.
 
-![]({{ site.baseurl }}/guide/assets/attribute-table.png)
+![]({{ site.url }}/guide/assets/attribute-table.png)
 <div class="caption">Node attribute table for the London Underground map.</div>
 
 ## Toolbar
@@ -27,7 +27,7 @@ Along the top of the window is the tool bar, for quick access to frequently used
 
 By default extended tool tips are displayed when the mouse is hovered over elements of the user interface. These can be disabled via the Options window.
 
-![]({{ site.baseurl }}/guide/assets/add-transform.png)
+![]({{ site.url }}/guide/assets/add-transform.png)
 <div class="caption">Hover over menu item or question mark symbols to display more information about a feature.</div>
 
 ## Setting Layout Preferences
@@ -38,7 +38,7 @@ Graphia uses a force directed layout algorithm, the results of which are display
 
 Graphia supports graph visualisation in both 2D and 3D. Options for setting visualisation mode are found towards the bottom of the View menu. The default setting is to display graphs in 3D and to use smooth 3D shading (A). This can be changed to flat shading while still displaying the graph in 3D (B). Orthographic view makes all node the same size but still rendered in 3D, perspective of distance is not applied - useful when displaying encodings using node size to distinguish between attributes in a 3D setting (C). A 2D graph can be displayed with smooth (D) or flat shading (E) and when node density is high, node/edge outline tracing (flat view only) helps visualisation (F).
 
-![]({{ site.baseurl }}/guide/assets/2d-3d.png)
+![]({{ site.url }}/guide/assets/2d-3d.png)
 
 The size and colour of nodes and edges may be set to suit the preferences of the user in the Options Window, accesible via the Edit menu or from the corresponding toolbar button.
 
@@ -53,7 +53,7 @@ You can interact with the graph directly using your mouse.
 
 There are two graph visualisation modes. Overview Mode provides a view of the entire graph and all its components. Component Mode provides a focused view on a particular graph component or a node within it. For example there are two components contained within London Transport graph, one is the London tube map, the second is the Riverbus network. These are displayed as separate components in overview mode as they are not connected to each other.
 
-![]({{ site.baseurl }}/guide/assets/components.png)
+![]({{ site.url }}/guide/assets/components.png)
 <div class="caption">Overview mode on the left. Component mode on the right, focused on a particular component. To move between components click on the arrows on the left and right of the screen and to return to overview mode click on the icon on the bottom of the screen (red oval).</div>
 
 You can interact with nodes by clicking on them with your mouse:
@@ -71,6 +71,6 @@ Graphia has multiple ways to find nodes. Selecting Find from the Edit menu allow
 
 ## Example Data
 
-We provide a number of example files for you to download and explore on our [Example Datasets]({{site.baseurl}}/example-data.html) page.
+We provide a number of example files for you to download and explore on our [Example Datasets]({{site.url}}/example-data.html) page.
 
 {% include guide-nav.html %}

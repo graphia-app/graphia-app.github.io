@@ -21,7 +21,7 @@ function()
 };
 </script>
 
-Upon starting Graphia for the first time, you will be presented with a short tutorial which runs through the basics of using the software. This can be reactivated at any time from the _Help_ menu. For further information, please consult the [User Guide]({{site.baseurl}}/userguide.html).
+Upon starting Graphia for the first time, you will be presented with a short tutorial which runs through the basics of using the software. This can be reactivated at any time from the _Help_ menu. For further information, please consult the [User Guide]({{site.url}}/userguide.html).
 
 <div class="license">
 {% include_relative LICENSE %}

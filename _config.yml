@@ -6,7 +6,6 @@ description: Visualisation tool for the creation and analysis of large graphs.
 
 lang: en_GB
 
-baseurl: ""
 url: "https://graphia.app"
 
 github_username: graphia-app

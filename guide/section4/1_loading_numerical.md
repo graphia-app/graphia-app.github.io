@@ -9,7 +9,7 @@ At face value the relationship between rows of data in large tabular datasets ma
 
 In order to leverage correlation analysis, the source data must be formatted into a table either in CSV, TSV or Excel formats. These files must be structured as follows.
 
-![]({{ site.baseurl }}/guide/assets/correlation-file.png)
+![]({{ site.url }}/guide/assets/correlation-file.png)
 
 A correlation file consists of a header of column names, then a series of rows with each row representing some entity, that will ultimately correspond to a node. The first column should be a unique identifier for each of these entities (*Row ID*). The next set of columns should describe attribute values associated with that entity (*Row Attributes*). Similarly columns of data should begin with a unique identifier (*Column ID*), then optionally annotation data where available (*Column Annotations*), ending with the data values. This should be the actual data values which will be used to perform the correlation analysis (*Numerical Data Table*). Usually it contains numerical values, but discrete/categorical data can also be used.
 
@@ -25,7 +25,7 @@ After opening a table of data, you will be presented with the correlation wizard
 
 ## Data Selection
 
-![]({{ site.baseurl }}/guide/assets/correlation-data-selection.png)
+![]({{ site.url }}/guide/assets/correlation-data-selection.png)
 
 The Data Selection page contains a number of options to adjust the graph output from the file. Graphia automatically detects where the numerical data begins, i.e. the data frame (highlighted) from the input file. You can click on cells to add or remove rows and columns from the analysis if the data frame has not been identified correctly.
 
@@ -33,7 +33,7 @@ This page also gives you the option to transpose the data, if you wish to set th
 
 ## Correlation
 
-![]({{ site.baseurl }}/guide/assets/correlation-parameters.png)
+![]({{ site.url }}/guide/assets/correlation-parameters.png)
 <div class="caption">Plot of predicted graph size based on correlation threshold. As initial threshold increases, the number of nodes and edges in the resultant graph decreases.</div>
 
 The distribution and number of correlation values for a given dataset is defined primarily by a number of variables:
@@ -50,7 +50,7 @@ The Initial Threshold is used to set the minimum edge weight threshold used for 
 
 For most applications, the Pearson correlation coefficient is recommend for graphs being constructed based on all correlations above a defined threshold, however other correlation measures are available. Additionally it's possible to build graphs of negative correlations or both negative and positive correlations, and otherwise manipulate the data being loaded. These options are available by selecting the *Advanced* checkbox.
 
-![]({{ site.baseurl }}/guide/assets/correlation-parameters-advanced.png)
+![]({{ site.url }}/guide/assets/correlation-parameters-advanced.png)
 
 - **Polarity**: whether to compute anti-correlations.
 - **Imputation (only displayed when needed)**: allows the replacement of missing values in the dataset (empty cells) with a constant or interpolated value.

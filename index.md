@@ -1,7 +1,7 @@
 <div class="full-width">
 <video id="banner" autoplay muted loop oncontextmenu="return false;">
-<source src="{{site.baseurl}}/assets/banner.webm" type="video/webm">
-<source src="{{site.baseurl}}/assets/banner.mp4" type="video/mp4">
+<source src="{{site.url}}/assets/banner.webm" type="video/webm">
+<source src="{{site.url}}/assets/banner.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -14,7 +14,7 @@ Graphia is a powerful open source visual analytics application developed to aid 
 
 Graphia can create and visualise graphs from tables of numeric data and display the structures that result. It can also be used to visualise and analyse any data that is already in the form of a graph.
 
-![]({{site.baseurl}}/assets/main/tree-graphs.png)
+![]({{site.url}}/assets/main/tree-graphs.png)
 
 ## **Features**
 
@@ -30,7 +30,7 @@ Graphia can create and visualise graphs from tables of numeric data and display 
 - Customisable and simple to use web search
 - Easy export and sharing of analysis results
 
-![]({{site.baseurl}}/assets/main/taxonomy.png)
+![]({{site.url}}/assets/main/taxonomy.png)
 
 ## **Benefits**
 
@@ -58,7 +58,7 @@ Many analyses of complex data come down to a need to identify patterns and trend
 
 Graphia provides a platform where different data types can be merged and explored as a graph, where connections or data attributes are derived from more than one source. A plugin architecture enables the user interface may be modified to suit a given data type, connect with predefined data sources or optimised for a given analytical process. This allow a developer to tailor it to suit specific analytical needs without needing to alter the core application.
 
-![]({{site.baseurl}}/assets/main/black-graph.png)
+![]({{site.url}}/assets/main/black-graph.png)
 
 ## **Many Data Types from Many Sectors**
 
@@ -69,7 +69,7 @@ Graphia provides a platform where different data types can be merged and explore
 - **Text Mining** - count matrices of words found across many documents
 - **Questionnaire** - answers to questions are categorical (yes/no) or continuous (1-10)
 
-![]({{site.baseurl}}/assets/main/ui.png)
+![]({{site.url}}/assets/main/ui.png)
 
 ## **About**
 
@@ -101,7 +101,7 @@ Please help us to help you!
 
 We would like to thank those who have helped us develop Graphia:
 
-[![Scottish Enterprise]({{site.baseurl}}/assets/logos/scotent.png)](https://www.scottish-enterprise.com/)
-[![The Roslin Institute]({{site.baseurl}}/assets/logos/roslin.png)](https://www.roslin.ed.ac.uk/)
-[![The University of Edinburgh]({{site.baseurl}}/assets/logos/uoe.png)](https://www.ed.ac.uk/)
-[![BBSRC]({{site.baseurl}}/assets/logos/bbsrc.png)](https://bbsrc.ukri.org/)
+[![Scottish Enterprise]({{site.url}}/assets/logos/scotent.png)](https://www.scottish-enterprise.com/)
+[![The Roslin Institute]({{site.url}}/assets/logos/roslin.png)](https://www.roslin.ed.ac.uk/)
+[![The University of Edinburgh]({{site.url}}/assets/logos/uoe.png)](https://www.ed.ac.uk/)
+[![BBSRC]({{site.url}}/assets/logos/bbsrc.png)](https://bbsrc.ukri.org/)

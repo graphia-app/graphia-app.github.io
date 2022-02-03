@@ -5,7 +5,7 @@ next: 2_first_start_up
 
 ## Download
 
-To download the software, please go to the [Download]({{site.baseurl}}/download.html) section. Once downloaded, install as normal for your platform.
+To download the software, please go to the [Download]({{site.url}}/download.html) section. Once downloaded, install as normal for your platform.
 
 ## Requirements
 

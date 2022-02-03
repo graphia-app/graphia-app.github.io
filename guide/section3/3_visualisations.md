@@ -10,7 +10,7 @@ Visualisations are another important concept. Associated with nodes and edges ar
 
 Clicking **Add Visualisation** (bottom right of graph display window) will open the Add Visualisation dialog.
 
-![]({{ site.baseurl }}/guide/assets/visualisations-dialog.png)
+![]({{ site.url }}/guide/assets/visualisations-dialog.png)
 <div class="caption">Visualisation dialog. First select the node or edge attribute you wish to visualise and then how you wish to display this (colour, size, text)</div>
 
 Visualisations can be one of the following types:
@@ -21,17 +21,17 @@ Visualisations can be one of the following types:
 
 Visualisations operate in a list, similarly to how Transforms work. Visualisations update to match the data in the graph.
 
-![]({{ site.baseurl }}/guide/assets/visualisation-list.png)
+![]({{ site.url }}/guide/assets/visualisation-list.png)
 <div class="caption">Visualisation list containing two visualisations. MCL Cluster attribute as a colour visualisation and Edge betweenness attribute as a size visualisation.</div>
 
 In the case of categorical attributes each attribute is assigned a colour, numerical attributes are displayed using a spectrum of colour. Clicking on the colour key of a visualisation will allow you to change the colour scheme of the whole palette or the colour assigned to individual attributes.
 
-![]({{ site.baseurl }}/guide/assets/applied-visualisation.png)
+![]({{ site.url }}/guide/assets/applied-visualisation.png)
 <div class="caption">A simple graph with colour, size and text visualisations applied to represent node degree (orthographic view).</div>
 
 Each visualisation operates within its domain and does not interfere with other visualisations of a different type, for example a colour visualisation will not interfere with a text visualisation. However two visualisations of the same type will overlap, with the last visualisation in the list taking precedence. Multiple visualisations of the same type can be in the same list without overlapping, assuming they apply to separate graph elements.
 
-![]({{ site.baseurl }}/guide/assets/visualisation-mapping.png)
+![]({{ site.url }}/guide/assets/visualisation-mapping.png)
 <div class="caption">Visualisation mapping editor.</div>
 
 Numerical attributes can be mapped to the chosen visualisation channel in a variety of ways. By default the minimum and maximum values of the attribute are used, that is to say the minimum attribute value maps to e.g. the minimum node size, and likewise for the maxmimum. Additionally, the standard deviation may be used, or an entirely custom range decided the user. In the case where the attribute's value distribution is not homogenous, the curve of the mapping can be adjusted to better reflect the underlying data.

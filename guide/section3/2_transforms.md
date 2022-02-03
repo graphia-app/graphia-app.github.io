@@ -12,12 +12,12 @@ The **Add Transform** button can be found in the top right of the graph view. Fr
 
 Active transforms are displayed in a list on the top right of the graph display. Transforms are applied top down; the transform at the top of the list is applied first, the results of which are then fed into the second transform and so on down the list. The result of this process is what is ultimately displayed.
 
-![]({{ site.baseurl }}/guide/assets/transforms-list.png)
+![]({{ site.url }}/guide/assets/transforms-list.png)
 <div class="caption">Transform list showing three active transforms. Click on the selector icon to display options for modifying a transform (right). The order in which transforms are applied can be adjusted by clicking and dragging the selector icon. Transforms can be pinned to the bottom of the list in the case where you always want a transform to be applied last.</div>
 
 Clicking **Add Transform** will bring up the following dialog:
 
-![]({{ site.baseurl }}/guide/assets/transforms-dialog.png)
+![]({{ site.url }}/guide/assets/transforms-dialog.png)
 <div class="caption">The cluster dialog providing the means to select clustering algorithm and granularity setting.</div>
 
 From here you are presented with a list of all transforms available, separated by category. Selecting a transform from the list will elicit a brief description of the transform and its associated parameters.
@@ -39,14 +39,14 @@ Clustering is the act of dividing a graph up into groups of nodes based on their
 
 In some graphs the number of edges can be exceptionally large. Not only can these be difficult to render, they may add little to the overall structure and can actually obscure higher level groupings. The k-nearest neighbours (k-NN) algorithm is widely used for globally reducing the number of edges in a graph, such that a given node has a maximum number of edges. In a weighted edge graph it is preferential to retain those with the strongest weights. A modification of this principle is to retain only a given percent of the edges for any given node (%-NN). In the case where there are no edge attributes available there is also the option to remove a homogenous sample of the edges (Edge Reduction transform).
 
-![]({{ site.baseurl }}/guide/assets/knn.png)
+![]({{ site.url }}/guide/assets/knn.png)
 <div class="caption">The bcsstk31 (BCS Structural Engineering Matrices - Statics module of an automobile component) graph, with and without edge reduction. Note the graph structure is broadly similar, even with a vastly reduced number of edges.</div>
 
 ## Filters
 
 The filter transforms allows a user to remove nodes or edges based on their attributes. It provides a functionally rich menu with which to transform a graph based a wide range of criteria.
 
-![]({{ site.baseurl }}/guide/assets/filter.png)
+![]({{ site.url }}/guide/assets/filter.png)
 <div class="caption">The filter dialog. In this instance the selection reads: 'Remove Nodes where the Node Degree is less than 5.'</div>
 
 ## Metrics
@@ -55,7 +55,7 @@ Graphia includes three metrics for analysing a graphs structure:
 - **Eccentricity**: calculates the shortest path between every node and assigns the longest path length found for each node. This is a measure of a node's position within the overall graph structure.
 - **PageRank**: is an algorithm used originally to measure the importance of website pages. PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important a node is.
 
-![]({{ site.baseurl }}/guide/assets/metrics.png)
+![]({{ site.url }}/guide/assets/metrics.png)
 <div class="caption">Visual display of attribute data. (A) Display of clusters (categorical attribute); (B) following 'Remove Leaves' transformation; (C) visualisation of Betweeness centrality values; (D) Eccentricity values; (E) PageRank values; (F) Node degree values. C-D are continuous attributes, so colour spectrum and size used for display. Betweenness and eccentricity are calculated for both nodes and edges and therefore visual encoding is applied to both.</div>
 
 {% include guide-nav.html %}
