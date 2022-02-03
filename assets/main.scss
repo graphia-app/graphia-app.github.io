@@ -83,18 +83,59 @@ html, body
     display: inline-block;
 }
 
-.download-button
+.download-button,
+.open-data-button,
+.download-data-button
 {
     display: inline;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #EB5;
-    border-radius: 9px;
-    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    padding: 0.6em 10px 0.5em 10px;
     margin: 5px;
     background: #FC7;
     color: #048;
     white-space: nowrap;
+}
+
+.download-button:hover,
+.open-data-button:hover,
+.download-data-button:hover
+{
+    background: #FD8;
+    color: #048;
+    text-decoration: none;
+}
+
+.data-downloads
+{
+    text-align: right;
+    margin: 20px;
+}
+
+@media screen and (max-width:768px)
+{
+    // Hide on mobile screens, where it won't work anyway
+    .open-data-button
+    {
+        display:none;
+    }
+}
+
+.open-data-button::after
+{
+    content: url('/assets/logo.png');
+    padding: 0px 0px 0px 5px;
+    vertical-align: middle;
+}
+
+.download-button::after,
+.download-data-button::after
+{
+    content: url('/assets/download.png');
+    padding: 0px 0px 0px 5px;
+    vertical-align: middle;
 }
 
 .license
