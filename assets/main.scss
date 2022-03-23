@@ -78,11 +78,6 @@ html, body
     text-align: center;
 }
 
-.download-button-wrapper
-{
-    display: inline-block;
-}
-
 .download-button,
 .open-data-button,
 .download-data-button
@@ -126,7 +121,9 @@ html, body
 .open-data-button::after
 {
     content: url('/assets/logo.png');
-    padding: 0px 0px 0px 5px;
+    height: 32px;
+    padding: 0px 0px 5px 5px;
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -134,7 +131,9 @@ html, body
 .download-data-button::after
 {
     content: url('/assets/download.png');
-    padding: 0px 0px 0px 5px;
+    height: 32px;
+    padding: 0px 0px 5px 5px;
+    display: inline-block;
     vertical-align: middle;
 }
 
