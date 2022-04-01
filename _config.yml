@@ -18,7 +18,7 @@ header_pages:
   - example-data.md
   - userguide.md
 
-google_analytics: UA-164944155-1
+google_analytics: G-VRMV9XLYXB
 
 plugins:
   - jekyll-seo-tag
