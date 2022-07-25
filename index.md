@@ -79,7 +79,7 @@ Our journey started 20 years ago, as we began to envisage how graphs could help 
 
 If you have used Graphia in a scientific publication, we would appreciate citations to the following paper:
 
-Tom C. Freeman, Sebastian Horsewell, Anirudh Patir, Josh Harling-Lee, Tim Regan, Barbara B. Shih, James Prendergast, David A. Hume, Tim Angus; [Graphia: A platform for the graph-based visualisation and analysis of complex data](https://www.biorxiv.org/content/10.1101/2020.09.02.279349v1)
+Tom C. Freeman, Sebastian Horsewell, Anirudh Patir, Josh Harling-Lee, Tim Regan, Barbara B. Shih, James Prendergast, David A. Hume, Tim Angus; [Graphia: A platform for the graph-based visualisation and analysis of high dimensional data](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010310)
 
 ## **Citations**
 
