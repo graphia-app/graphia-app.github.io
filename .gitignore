@@ -6,4 +6,4 @@ Gemfile
 Gemfile.lock
 _site/
 vendor/
-
+*Thumbs.db*
