@@ -2,6 +2,8 @@ If you would like your publication to appear here, please [let us know](mailto:i
 
 ## **Citations**
 
+[A Gene Expression Atlas of the Domestic Water Buffalo (Bubalus bubalis).](https://www.frontiersin.org/articles/10.3389/fgene.2019.00668/full) Rachel Young, Lucas Lefevre1, Stephen J. Bush, Akshay Joshi1, Salam Herojeet Singh, Santosh Kumar Jadhav, Velu Dhanikachalam, Zofia M. Lisowski, Daniela Iamartino, Kim M. Summers, John L. Williams, Alan L. Archibald, Suresh Gokhale, Satish Kumar, and David A. Hume. Frontiers in Genetics (2019)
+
 [A graph-based approach for the visualisation and analysis of bacterial pangenomes.](https://europepmc.org/article/ppr/ppr481352) Joshua D Harling-Lee, Jamie Gorzynski, Gonzalo Yebra, Tim Angus, J Ross Fitzgerald, Tom C Freeman. Research Square – Preprint (2022).
 
 [A novel strain of lumpy skin disease virus causes clinical disease in cattle in Hong Kong.](https://onlinelibrary.wiley.com/doi/10.1111/tbed.14304) John Flannery, Barbara Shih, Ismar R. Haga, Martin Ashby, Amanda Corla, Simon King, Graham Freimanis, Noemi Polo, Anne Ching‐nga Tse, Christopher J. Brackman, Jason Chan, Patrick Pun, Andrew D. Ferguson, Andy Law, Samantha Lycett, Carrie Batten, Philippa M. Beard. Transboundary and Emerging Diseases (2021).
@@ -12,7 +14,9 @@ If you would like your publication to appear here, please [let us know](mailto:i
 
 [Blockchain Analysis of the Bitcoin Market.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3942181) Igor Makarov, Antoinette Schoar. SSRN Electronic Journal – Preprint (2021).
 
-[Bovine host genome acts on rumen microbiome function linked to methane emissions](https://www.nature.com/articles/s42003-022-03293-0) Marina Martínez-Álvaro, Marc D. Auffret, Carol-Anne Duthie, Richard J. Dewhurst, Matthew A. Cleveland, Mick Watson & Rainer Roehe. Nature Communications (2022).
+[Bovine host genome acts on rumen microbiome function linked to methane emissions.](https://www.nature.com/articles/s42003-022-03293-0) Marina Martínez-Álvaro, Marc D. Auffret, Carol-Anne Duthie, Richard J. Dewhurst, Matthew A. Cleveland, Mick Watson & Rainer Roehe. Nature Communications (2022).
+
+[Combination of novel and public RNA-seq datasets to generate an mRNA expression atlas for the domestic chicken.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4972-7) Stephen J. Bush, Lucy Freem, Amanda J. MacCallum, Jenny O’Dell, Chunlei Wu, Cyrus Afrasiabi, Androniki Psifidi, Mark P. Stevens, Jacqueline Smith, Kim M. Summers & David A. Hume. BMC Genomics (2018).
 
 [Computational Analysis of SARS-CoV-2 and SARS-Like Coronavirus Diversity in Human, Bat and Pangolin Populations.](https://pubmed.ncbi.nlm.nih.gov/33396801/) Nicholas J Dimonaco, Mazdak Salavati, Barbara B Shih. Viruses (2020).
 
