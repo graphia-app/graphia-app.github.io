@@ -30,7 +30,11 @@ Graphia can create and visualise graphs from tables of numeric data and display 
 - Customisable and simple to use web search
 - Easy export and sharing of analysis results
 
-![]({{site.url}}/assets/main/taxonomy.png)
+<div class="video-container">
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/YjfthA5DIOk" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
 
 ## **Benefits**
 
