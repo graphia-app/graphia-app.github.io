@@ -18,7 +18,7 @@ Active transforms are displayed in a list on the top right of the graph display.
 Clicking **Add Transform** will bring up the following dialog:
 
 ![]({{ site.url }}/guide/assets/transforms-dialog.png)
-<div class="caption">The cluster dialog providing the means to select clustering algorithm and granularity setting.</div>
+<div class="caption">The Add Transform dialog being used to select a clustering algorithm.</div>
 
 From here you are presented with a list of all transforms available, separated by category. Selecting a transform from the list will elicit a brief description of the transform and its associated parameters.
 
