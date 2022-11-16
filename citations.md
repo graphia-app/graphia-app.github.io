@@ -4,7 +4,7 @@ If you would like your publication to appear here, please [let us know](mailto:i
 
 [A Gene Expression Atlas of the Domestic Water Buffalo (Bubalus bubalis).](https://www.frontiersin.org/articles/10.3389/fgene.2019.00668/full) Rachel Young, Lucas Lefevre1, Stephen J. Bush, Akshay Joshi1, Salam Herojeet Singh, Santosh Kumar Jadhav, Velu Dhanikachalam, Zofia M. Lisowski, Daniela Iamartino, Kim M. Summers, John L. Williams, Alan L. Archibald, Suresh Gokhale, Satish Kumar, and David A. Hume. Frontiers in Genetics (2019)
 
-[A graph-based approach for the visualisation and analysis of bacterial pangenomes.](https://europepmc.org/article/ppr/ppr481352) Joshua D Harling-Lee, Jamie Gorzynski, Gonzalo Yebra, Tim Angus, J Ross Fitzgerald, Tom C Freeman. Research Square – Preprint (2022).
+[A graph-based approach for the visualisation and analysis of bacterial pangenomes.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04898-2) Joshua D Harling-Lee, Jamie Gorzynski, Gonzalo Yebra, Tim Angus, J Ross Fitzgerald, Tom C Freeman. BMC Bioinformatics (2022).
 
 [A novel strain of lumpy skin disease virus causes clinical disease in cattle in Hong Kong.](https://onlinelibrary.wiley.com/doi/10.1111/tbed.14304) John Flannery, Barbara Shih, Ismar R. Haga, Martin Ashby, Amanda Corla, Simon King, Graham Freimanis, Noemi Polo, Anne Ching‐nga Tse, Christopher J. Brackman, Jason Chan, Patrick Pun, Andrew D. Ferguson, Andy Law, Samantha Lycett, Carrie Batten, Philippa M. Beard. Transboundary and Emerging Diseases (2021).
 
