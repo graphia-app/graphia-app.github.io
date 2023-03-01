@@ -9,12 +9,12 @@ For small datasets without attributes, pairwise (.txt) is a very simple and easy
 
 Graphia supports the following file formats:
 - Adjacency Matrix (.csv, .tsv, .xlsx)
-- Biopax OWL (.owl)
-- Cytoscape Exchange (.cx, .cx2)
-- Graphviz DOT (.dot)
-- GraphML (.graphml)
-- Graph Modelling Language (.gml)
-- JSON Graph (.json)
+- [Biopax OWL](http://www.biopax.org/owldoc/Level3/) (.owl)
+- [Cytoscape Exchange](https://home.ndexbio.org/data-model/) (.cx, .cx2)
+- [Graphviz DOT](https://www.graphviz.org/doc/info/lang.html) (.dot)
+- [GraphML](http://graphml.graphdrawing.org/primer/graphml-primer.html) (.graphml)
+- [Graph Modelling Language](https://github.com/GunterMueller/UNI_PASSAU_FMI_Graph_Drawing/blob/master/GML/gml-technical-report.pdf) (.gml)
+- [JSON Graph](https://jsongraphformat.info/) (.json)
 - MATLAB data files (.mat)
 - Pairwise (.txt, .csv, .tsv, .xlsx)
 
