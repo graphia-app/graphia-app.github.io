@@ -20,4 +20,9 @@ Graphia supports the following file formats:
 
 These files can be loaded directly into Graphia navigating to *File → Open* or by clicking the open icon in the top left of the toolbar.
 
+In particular, when dealing with pairwise data, the following dialog will be displayed. In this case the meaning of each column can be selected, enabling flexible workflows where the format of the input data is not necessarily fixed.
+
+![]({{ site.url }}/guide/assets/pairwise-parameters.png)
+<div class="caption">The Pairwise Parameters dialog.</div>
+
 {% include guide-nav.html %}
