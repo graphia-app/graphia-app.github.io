@@ -60,7 +60,7 @@ For most applications, the Pearson correlation coefficient is recommend for grap
 - **Filtering**: the method by which edges are filtered from the graph.
 
 ## Finalising
-The final pages of the wizard include *Initial Transforms*, which as its name suggests allows the creation of commonly used transforms in the context of correlation analysis. These transforms can be adjusted later; allowing for creation here is only provided as a convenience. After this page a summary is presented, that documents the parameters that will be used to create the graph. This can be accessed later by going to the *Tools* menu and choosing *Show Provenance Log…*.
+The final pages of the wizard include *Template*, which as its name suggests allows the application of predefined templates, as described previously. These transforms and visualisations can be adjusted later; allowing for their addition here is only provided as a convenience. After this page a summary is presented, that documents the parameters that will be used to create the graph. This can be accessed later by going to the *Tools* menu and choosing *Show Provenance Log…*.
 
 Please note, should your selected settings for graph construction result in a large graph, the following message will be displayed:
 
