@@ -1,7 +1,7 @@
 ---
 title: Saving Graphs, Analysis Results and Outputs
-prev: 4_attributes
-next: 6_enrichment
+prev: 5_attributes
+next: 7_enrichment
 ---
 
 ## Saving

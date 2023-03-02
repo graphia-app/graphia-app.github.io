@@ -1,7 +1,7 @@
 ---
 title: Attributes
-prev: 3_visualisations
-next: 5_saving
+prev: 4_templates
+next: 6_saving
 ---
 
 ## Cloning Attributes

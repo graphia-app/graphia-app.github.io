@@ -1,7 +1,7 @@
 ---
 title: Visualisations
 prev: 2_transforms
-next: 4_attributes
+next: 4_templates
 ---
 
 ## Visualisations
