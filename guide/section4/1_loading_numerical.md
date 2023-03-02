@@ -53,9 +53,11 @@ For most applications, the Pearson correlation coefficient is recommend for grap
 ![]({{ site.url }}/guide/assets/correlation-parameters-advanced.png)
 
 - **Polarity**: whether to compute anti-correlations.
+- **Clipping**: limit the maximum value of each row according to the selected method.
 - **Imputation (only displayed when needed)**: allows the replacement of missing values in the dataset (empty cells) with a constant or interpolated value.
 - **Scaling**: scales the values within the data frame, this is useful if you use logarithmic or exponential data.
 - **Normalisation**: allows the adjustment of distributions of data within the data frame. Min/Max normalisation is particularly useful if the columns of data use different units.
+- **Filtering**: the method by which edges are filtered from the graph.
 
 ## Finalising
 The final pages of the wizard include *Initial Transforms*, which as its name suggests allows the creation of commonly used transforms in the context of correlation analysis. These transforms can be adjusted later; allowing for creation here is only provided as a convenience. After this page a summary is presented, that documents the parameters that will be used to create the graph. This can be accessed later by going to the *Tools* menu and choosing *Show Provenance Log…*.
