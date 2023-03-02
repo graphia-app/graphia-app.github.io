@@ -8,7 +8,7 @@ next: 4_templates
 
 Visualisations are another important concept. Associated with nodes and edges are various attributes. This information may have been loaded from the input file, imported afterwards, or calculated in the application itself. Visualisations are often tied to the output of Transforms; for example a clustering transform will automatically apply a colour visualisation, so each cluster is coloured differently.
 
-Clicking **Add Visualisation** (bottom right of graph display window) will open the Add Visualisation dialog.
+Clicking **Add Visualisation** (bottom right of graph display) will open the Add Visualisation dialog.
 
 ![]({{ site.url }}/guide/assets/visualisations-dialog.png)
 <div class="caption">Visualisation dialog. First select the node or edge attribute you wish to visualise and then how you wish to display this (colour, size, text)</div>
