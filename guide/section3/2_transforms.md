@@ -29,7 +29,7 @@ From here you are presented with a list of all transforms available, separated b
 - **Metrics**: introduce new attributes that measure elements' placement within the graph
 - **Structural**: change the structure of a graph in various ways
 
-Some transforms provide the option to automatically apply a visualisation after adding. Clicking OK will finalise the transform configuratiom and add it to the graph. We describe some of the most commonly used transforms below.
+Some transforms provide the option to automatically apply a visualisation after adding. Transforms that are used often can be set as favourites using the **Add/Remove Favourite** button. In this case such transforms will always appear at the top of the list, for easy access. Clicking OK will finalise the transform configuratiom and add it to the graph. We describe some of the most commonly used transforms below.
 
 ## Clustering
 
