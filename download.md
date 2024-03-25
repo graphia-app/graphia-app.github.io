@@ -26,6 +26,3 @@ Upon starting Graphia for the first time, you will be presented with a short tut
 <div class="license">
 {% include_relative LICENSE %}
 </div>
-
-If Graphia proves useful to you, we'd appreciate it if you would consider donating to the project.
-{% include donate.html %}
