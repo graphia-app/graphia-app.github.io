@@ -9,7 +9,7 @@ lang: en_GB
 url: "https://graphia.app"
 
 github_username: graphia-app
-github_discussion_project: graphia-app/graphia
+github_project: graphia-app/graphia
 
 theme: minima
 

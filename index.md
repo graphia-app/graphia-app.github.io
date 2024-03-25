@@ -87,13 +87,9 @@ Tom C. Freeman, Sebastian Horsewell, Anirudh Patir, Josh Harling-Lee, Tim Regan,
 
 Graphia has been used in many [publications]({{site.url}}/citations.html), in a variety of contexts. If you would like your publication to appear here, please [let us know](mailto:info@graphia.app?subject=Publication Using Graphia).
 
-## **Working with us**
+## **Help**
 
-There are lots of new features and functionality we still wish to add to Graphia and envisage a desire from some to integrate it into local data infrastructures or web resources. If you are interested in working with us to further improve Graphia or need our help in other ways, we would love to hear from you.
-
-Please contact: <info@graphia.app>
-
-Please help us to help you!
+If you have a question about how to do something that isn't explained in the [user guide]({{site.url}}/userguide.html), a suggestion for a feature or just want to discuss Graphia in some way, please use the [discussions](https://github.com/{{ site.github_project }}/discussions) section on GitHub. If you believe you're experiencing a bug, please report it in the [issues](https://github.com/{{ site.github_project }}/issues) section on GitHub and we will endeavour to solve it. For any other more general queries, email us directly: <info@graphia.app>.
 
 ## **Acknowledgements** ##
 
