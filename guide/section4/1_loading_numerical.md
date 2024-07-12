@@ -70,4 +70,15 @@ Ignore this warning at your peril!
 
 Clicking *Finish* begins the computation of the graph using the selecting settings. Clicking *Confirm* at any point when using the wizard will skip to the *Summary* page using the current settings.
 
+## Importing Column Annotations
+
+Having performed a correlation, it may be desirable to superimpose some external meta data onto the graph as column annotations. This facility is available via the *Plot → Import Annotations From Table…* menu option. The table in question should be constructed as a simple row wise list of annotation values, with the first column providing names for the annotations. In particular, the first row needs to be a key that it used to map data columns to annotation values.
+
+![]({{ site.url }}/guide/assets/import-annotation-key-selection.png)
+<div class="caption">Key Selection.</div>
+
+Once the key mapping is detected or selected, it only remains to select which annotation(s) to import from the table.
+
+![]({{ site.url }}/guide/assets/import-annotation-attribute-selection.png)
+<div class="caption">Annotation Selection.</div>
 {% include guide-nav.html %}
