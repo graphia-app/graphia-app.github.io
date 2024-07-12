@@ -8,7 +8,7 @@ For an analysis to proceed, data needs to be presented to Graphia in one of the 
 For small datasets without attributes, pairwise (.txt) is a very simple and easy to construct format. Adjacency matrices can be loaded as (.csv, .tsv). For most other datasets, we recommend using a standardised graph format such as GML.
 
 Graphia supports the following file formats:
-- Adjacency Matrix (.csv, .tsv, .xlsx)
+- Adjacency Matrix (.csv, .tsv, .txt, .xlsx)
 - [Biopax OWL](http://www.biopax.org/owldoc/Level3/) (.owl)
 - [Cytoscape Exchange](https://home.ndexbio.org/data-model/) (.cx, .cx2)
 - [Graphviz DOT](https://www.graphviz.org/doc/info/lang.html) (.dot)
