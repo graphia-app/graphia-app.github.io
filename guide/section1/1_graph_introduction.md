@@ -3,6 +3,8 @@ title: A Short Introduction to Graphs
 next: 2_what_type_of_data
 ---
 
+{% include guide-nav.html %}
+
 ## Introduction
 Many types of data are best understood when represented and analysed as a graph. Fundamentally, graphs are structures comprised of nodes and edges, where the nodes represent entities and the edges represent relationships between said nodes. Graphs may be used as a powerful medium to understand complex data or systems. When data is visualised as a graph, large amounts of information can be explored on a global or local scale.
 

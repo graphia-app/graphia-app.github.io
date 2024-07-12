@@ -4,6 +4,8 @@ prev: 1_load_graph_data
 next: 3_visualisations
 ---
 
+{% include guide-nav.html %}
+
 ## Transforms
 
 Graph transformation is a central concept in Graphia. Transforms are a range of processes by which a graph is modified to produce a new graph or calculate a new attribute. Graphia incorporates a wide range of options that allow an analyst to perform a sophisticated range of data transformations and analyses. These include processes such as graph clustering, edge reduction, node/edge filtering based on attributes, calculation of graph metrics, or algorithms that change the structure of a graph. Graphia's interface for performing graph transforms has been designed to be powerful and flexible, the results immediately modifying a graph's structure or appearance.

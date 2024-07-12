@@ -4,6 +4,8 @@ prev: 4_templates
 next: 6_saving
 ---
 
+{% include guide-nav.html %}
+
 ## Cloning Attributes
 
 Any attribute can be cloned via the *Tools → Clone Attribute…* menu option.

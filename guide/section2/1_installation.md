@@ -3,6 +3,8 @@ title: Installation
 next: 2_first_start_up
 ---
 
+{% include guide-nav.html %}
+
 ## Download
 
 To download the software, please go to the [Download]({{site.url}}/download.html) section. Once downloaded, install as normal for your platform.

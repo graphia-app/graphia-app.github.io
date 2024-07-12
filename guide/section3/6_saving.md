@@ -4,6 +4,8 @@ prev: 5_attributes
 next: 7_enrichment
 ---
 
+{% include guide-nav.html %}
+
 ## Saving
 Having performed an analysis one needs save the results. Graphia allows you to export tables of results or publication quality images of the graphs and data plots, for subsequent communication of the results to others.
 

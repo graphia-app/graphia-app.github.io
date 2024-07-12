@@ -3,6 +3,8 @@ title: Graph Terms and Concepts
 prev: 3_why_use_graphs
 ---
 
+{% include guide-nav.html %}
+
 ## Graph Layout
 Graph layout is the process of physically placing nodes and edges in space, for the purposes of visualising data structure. In other words, ordering the information for visual inspection
 

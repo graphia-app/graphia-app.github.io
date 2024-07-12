@@ -4,6 +4,8 @@ prev: 2_transforms
 next: 4_templates
 ---
 
+{% include guide-nav.html %}
+
 ## Visualisations
 
 Visualisations are another important concept. Associated with nodes and edges are various attributes. This information may have been loaded from the input file, imported afterwards, or calculated in the application itself. Visualisations are often tied to the output of Transforms; for example a clustering transform will automatically apply a colour visualisation, so each cluster is coloured differently.

@@ -4,6 +4,8 @@ prev: 3_visualisations
 next: 5_attributes
 ---
 
+{% include guide-nav.html %}
+
 ## Templates
 
 It may be that when dealing with multiple data sources that a common work flow is arrived at where the same set of transforms and visualisations are applied each time. *Templates* are available to avoid the repetition of doing so, and to facilitate rapid switching between different transform regimes.

@@ -3,6 +3,8 @@ title: Enrichment Analysis
 prev: 6_saving
 ---
 
+{% include guide-nav.html %}
+
 ## Enrichment Analysis
 
 Enrichment analysis is often useful, especially when used in conjunction with graph clustering. Graphia provides an enrichment tool for testing your data.

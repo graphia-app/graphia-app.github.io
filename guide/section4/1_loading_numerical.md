@@ -3,6 +3,8 @@ title: Loading Numerical Data
 next: 2_analyses_steps
 ---
 
+{% include guide-nav.html %}
+
 ## Numerical Data
 
 At face value the relationship between rows of data in large tabular datasets may not be immediately obvious. Using Graphia's built-in correlation analysis, you can identify relationships between entities based on the similarity in their data patterns. Graphia can rapidly generate correlation graphs even from very large datasets; 10s of thousands of columns and rows. The process of preparing data for loading is down to the individual, as each data type or source of data may have its own challenges in getting it 'graph ready'. These include; data cleaning, formatting, QC, normalisation, annotation, correction, imputation, etc.. Ultimately the quality of the resulting graph visualisation depends on these steps.

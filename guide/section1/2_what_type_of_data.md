@@ -4,6 +4,8 @@ prev: 1_graph_introduction
 next: 3_why_use_graphs
 ---
 
+{% include guide-nav.html %}
+
 ## Types of Data
 
 Many types of data are inherently a network of relationships, whether that be between companies and clients, relations between family members, communications between things or interactions between proteins. As such, these data can all be visualised and explored as a graph.

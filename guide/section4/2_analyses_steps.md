@@ -3,6 +3,8 @@ title: Correlation Analysis Steps
 prev: 1_loading_numerical
 ---
 
+{% include guide-nav.html %}
+
 ## Correlation Analysis
 
 From here on you may require many of Graphia's visualisation and analytical capabilities described in the previous section. In particular you may wish to:
