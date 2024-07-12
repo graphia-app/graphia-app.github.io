@@ -50,6 +50,10 @@ The data profile of the selected nodes is displayed in the lower right of the wi
 
 Graphia is designed to let a user quickly explore data clusters, defining what is interesting and what is 'noise'. Having selected a specific cluster, individual data points within that cluster may be selected in the attribute table. By scrolling up and down within the data table, individual nodes are highlighted, and their data profiles displayed in the plot. After an initial analysis it may be necessary to look again at the input data, possibly recalculating values or removing data that is not of interest, therefore focusing an analysis on what is interesting.
 
-_**Graphia is designed to allow you to explore, analyse and interrogate data, it is up to you how you do this and what you do with the insights obtained.**_
+## Find Rows of Interest
+
+When examining correlation data, sometimes it is helpful to be able to isolate the graph nodes that correspond to distinct columns in the source data set. This is the purpose of the *Find Rows of Interest* function. After enabling said function, one or more columns in the data plot must be selected. Thereafter, any node selection will have its corresponsing data row selection reduced such that only the top most rows are shown in the data plot. The number of highlighted rows can be changed by adjusting the *Percentile* slider. The nature of the selection is also mutable via the *Selection Weighting* slider. Broadly speaking, this allows for finding either rows that have peaks in the selected columns (denoted Absoute) or for finding rows that have significant values specifically in the selected columns (denoted Relative). Note that columns can also be selected via *Column Annotation*.
+
+![]({{ site.url }}/guide/assets/find-rows-of-interest.png)
 
 {% include guide-nav.html %}
