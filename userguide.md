@@ -32,3 +32,11 @@ title: User Guide
     <a href="{{ entry.url }}">{{ entry.title }}</a>
   </li>
 {% endfor %}
+
+## Miscellaneous
+{% assign pages = site.pages | where_exp: "item", "item.url contains 'section5'" %}
+{% for entry in pages %}
+  <li>
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+  </li>
+{% endfor %}
