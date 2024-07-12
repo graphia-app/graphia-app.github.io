@@ -7,7 +7,7 @@ next: 2_transforms
 For an analysis to proceed, data needs to be presented to Graphia in one of the supported file formats. Graphia will allow you to load any data in the right format, and it will quickly highlight any errors or issues with the data's format. Once explored, it is not uncommon that data will need to be refined and then reloaded. Graphia supports a wide range of data types derived from many sources, in this section we will deal with data that is already in a graph format and the tools available for its exploration and analysis.
 For small datasets without attributes, pairwise (.txt) is a very simple and easy to construct format. Adjacency matrices can be loaded as (.csv, .tsv). For most other datasets, we recommend using a standardised graph format such as GML.
 
-Graphia supports the following file formats:
+Graphia supports the following graph file formats:
 - Adjacency Matrix (.csv, .tsv, .txt, .xlsx)
 - [Biopax OWL](http://www.biopax.org/owldoc/Level3/) (.owl)
 - [Cytoscape Exchange](https://home.ndexbio.org/data-model/) (.cx, .cx2)
@@ -17,6 +17,8 @@ Graphia supports the following file formats:
 - [JSON Graph](https://jsongraphformat.info/) (.json)
 - MATLAB data files (.mat)
 - Pairwise (.txt, .csv, .tsv, .xlsx)
+
+For loading correlation data, please see the [Loading Numerical Data]({{ site.url }}/guide/section4/1_loading_numerical.html) section.
 
 These files can be loaded directly into Graphia navigating to *File → Open* or by clicking the open icon in the top left of the toolbar.
 
