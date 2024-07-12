@@ -18,6 +18,9 @@ Visualisations can be one of the following types:
 - **Colour**: For text based attributes this will apply a unique colour to each distinct attribute value. Numerical values will be displayed as a colour range or gradient.
 - **Size**: This will scale elements to match the range of the attribute's values.
 - **Text**: This will display the attribute value as text in the graph. The visibility of graph text can be changed via *View → Show Node/Edge Text*. The font and size of text can be adjusted in the Options dialog.
+- **Text Colour**: Colour the text in a similar fashion to a **Colour** visualisation does for nodes and edges.
+- **Text Size**: Scale the text in a similar fashion to a **Size** visualisation does for nodes and edges.
+- **Shared Text**: Where groups of nodes and edges share an attribute value, display said value next to each respective grouping.
 
 Visualisations operate in a list, similarly to how Transforms work. Visualisations update to match the data in the graph.
 
