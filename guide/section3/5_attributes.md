@@ -15,7 +15,7 @@ Select the attribute to be cloned and provide a name.
 
 ## Editing Attributes
 
-Some attributes can be edited. Generally speaking these are the user defined attributes that are loaded with the graph, but also includes those that are imported later. This option is available via *Tools → Edit Attribute…*
+Some attributes can be edited. Generally speaking these are the user defined attributes that are loaded with the graph, but also includes those that are imported later. The description attached to the attribute can be modified, as can the type of the attribute, in the case where it can be interpreted multiple ways. These options are available via *Tools → Edit Attribute…*
 
 ![]({{ site.url }}/guide/assets/edit-attribute.png)
 <div class="caption">Edit Attribute dialog.</div>
@@ -24,7 +24,7 @@ This can be used in conjunction with the clone funcionality in order to facilita
 
 ## Importing Attributes
 
-It may be that having created a graph, it is desirable to superimpose some external meta data onto the graph as attributes. This facility is available via the *Tools → Import Attributes From Table…* menu option. The table in question should be constructed as a simple column wise list of attribute values, with the first row providing names for the attributes. In particular, one column needs to be a key that it used to map rows in the table, to nodes in the graph.
+It may be that having created a graph, it is desirable to superimpose some external meta data onto the graph as attributes. This facility is available via the *Tools → Import Attributes From Table…* menu option. The table in question should be constructed as a simple column wise list of attribute values, with the first row providing names for the attributes. In particular, one column needs to be a key that it used to map rows in the table to nodes in the graph.
 
 ![]({{ site.url }}/guide/assets/import-key-selection.png)
 <div class="caption">Key Selection.</div>
