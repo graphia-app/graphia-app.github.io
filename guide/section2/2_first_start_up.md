@@ -34,15 +34,15 @@ By default extended tool tips are displayed when the mouse is hovered over eleme
 
 ## Setting Layout Preferences
 
-Graphia uses a force directed layout algorithm, the results of which are displayed to the user as they occur. Graphia's layout algorithm can be used to display even massive graphs quickly, defining the position of nodes and edges in 2D or 3D space. Layout can be paused and resumed from the Layout menu, or via the corresponding button on the toolbar. To optimise visualisation, parameters can be tweaked by selecting the Settings option from the Layout menu. This shows a inset user interface in the bottom left of the graph that allows for adjustment of the force settings in real time.
+Graphia uses a force directed layout algorithm, the results of which are displayed to the user as they occur. Graphia's layout algorithm can be used to display even massive graphs quickly, defining the position of nodes and edges in 2D or 3D space. Layout can be paused and resumed from the Layout menu, or via the corresponding button on the toolbar. To optimise visualisation, parameters can be tweaked by selecting the Settings option from the Layout menu. This shows a inset user interface in the bottom left of the graph that allows for adjustment of the force settings in real time. The current node layout can be exported to file via the Layout menu, and reloaded later if and when required.
 
-## Graph visualisation options
+## Graph Visualisation Options
 
 Graphia supports graph visualisation in both 2D and 3D. Options for setting visualisation mode are found towards the bottom of the View menu. The default setting is to display graphs in 3D and to use smooth 3D shading (A). This can be changed to flat shading while still displaying the graph in 3D (B). Orthographic view makes all node the same size but still rendered in 3D, perspective of distance is not applied - useful when displaying encodings using node size to distinguish between attributes in a 3D setting (C). A 2D graph can be displayed with smooth (D) or flat shading (E) and when node density is high, node/edge outline tracing (flat view only) helps visualisation (F).
 
 ![]({{ site.url }}/guide/assets/2d-3d.png)
 
-The size and colour of nodes and edges may be set to suit the preferences of the user in the Options Window, accesible via the Edit menu or from the corresponding toolbar button.
+The size and colour defaults of nodes and edges may be set to suit the preferences of the user in the Options Window, accesible via the Edit menu or from the corresponding toolbar button, but for changing the size of graph elements on-the-fly, on a per-graph basis, use the Settings option in the Layout menu. The rendering of edges can be disabled entirely via the Show Edges option in the View menu.
 
 ## Graph Navigation
 Graphs may be large and complex structures. To understand such complexity a user needs to be able find their way around them. Graphia allows a user to view a graph from any angle, zoom in on a given node or pan out or view a graph as a whole.
