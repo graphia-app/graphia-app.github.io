@@ -1,6 +1,9 @@
+{% assign prev_page_info = site.pages | where_exp: "item", "item.name contains page.prev" | first %}
+{% assign next_page_info = site.pages | where_exp: "item", "item.name contains page.next" | first %}
+
 <div class="guide-nav">
 {% if page.prev %}
-<a class="guide-nav-button" rel="prev" href="{{page.prev}}.html">&larr; Previous</a>
+<a class="guide-nav-button" rel="prev" href="{{page.prev}}.html">&larr; {{ prev_page_info.title }}</a>
 <div class="guide-nav-filler"></div>
 {% endif %}
 
@@ -8,6 +11,6 @@
 
 {% if page.next %}
 <div class="guide-nav-filler"></div>
-<a class="guide-nav-button" rel="next" href="{{page.next}}.html">Next &rarr;</a>
+<a class="guide-nav-button" rel="next" href="{{page.next}}.html">{{ next_page_info.title }} &rarr;</a>
 {% endif %}
 </div>
