@@ -2,4 +2,14 @@
 <a class="open-data-button" href="https://web.graphia.app/?arguments={{ site.url | url_encode }}{{ include.link | url_encode }}">Open in Graphia Web</a>
 <a class="open-data-button" href="graphia://v1/{{ site.url | url_encode }}{{ include.link | url_encode }}">Open in Graphia Desktop</a>
 <a class="download-data-button" href="{{ site.url }}{{ include.link }}">Download</a>
+
+{% if include.link contains ".graphia" %}
+{% assign pattern = include.link | replace: ".graphia" "" %}
+{% assign matching = site.static_files | where_exp: "file", "file.path contains pattern" %}
+{% assign matching = matching | where_exp: "file", "file.extname != '.png'" %}
+{% assign source = matching | where_exp: "file", "file.extname != '.graphia'" | first %}
+{% if source %}
+<a class="download-data-button" href="{{ site.url }}{{ source.path }}">Source Data</a>
+{% endif %}
+{% endif %}
 </div>
