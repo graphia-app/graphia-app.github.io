@@ -4,6 +4,40 @@ title: Example Datasets
 
 Below are a number of example datasets that are derived from various different sources. They are presented in a range of supported formats and may be used to explore Graphia's functionality.
 
+## **Assorted Data**
+
+### **London Tube Map** – Pairwise Text (.txt)
+
+![London Tube Pairwise]({{ site.url }}/datasets/Simple_pairwise-London_tube_map.png)
+
+Pairwise text file using two columns to represent the London underground. The London tube map was originally designed in 1933, by electrical draughtsman Harry Beck. It is now one of the most famous network diagrams in the world. The data is presented as a connectivity map of stations and lines, represented by nodes and edges respectively.
+
+{% include open-download-data-buttons.html link="/datasets/Simple_pairwise-London_tube_map.graphia" %}
+
+### **Nutritional Food Data** - Numerical Data Matrix (.csv)
+
+![Food contents]({{ site.url }}/datasets/Food_contents_2024.png)
+
+It is not uncommon for laboratories to test for over a 100 different nutrients in a given food product. This is a rich source of information, and when such results are collated across many foodstuffs the amount of data becomes significant challenge to understand. Here we provide nutritional data from a wide variety of foods in a format ready for network analysis. The data comes from the UK Government’s [Food Standards Agency] (https://www.food.gov.uk/) website. After some data cleaning we have taken nutritional values for 948 foods and where available the results of 104 nutritional value scores. An analysis ready copy of these data are provided here.
+
+{% include open-download-data-buttons.html link="/datasets/Food_contents_2024.graphia" %}
+
+### **UK Forename Data** – Numerical Correlation Data (.csv)
+
+![Historical UK forename data]({{ site.url }}/datasets/UK_forenames_1838-2014.png)
+
+In this study, Bush S.J., Powell-Smith A, Freeman TC (2018) Network analysis of the social and demographic influences on name choice within the UK (1838-2016). [PLoS ONE 13(10): e0205759.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205759), researchers used network analysis to examine naming records in order to explore the influences on name choices within the UK over the last 170 years. Using a large representative sample of approximately 22 million forenames from England and Wales given between 1838 and 2014, along with a complete population sample of births registered between 1996 and 2016, they demonstrated how trends in name usage can be visualised using Graphia.
+
+{% include open-download-data-buttons.html link="/datasets/UK_forenames_1838-2014.graphia" %}
+
+### **2008-2009 NASDAQ Shares** – Numerical data (.csv)
+
+![NASDAQ]({{ site.url }}/datasets/NASDAQ-2008-2009.png)
+
+Share prices rise and fall based on the performance of the company, but their value is also subject to the vagaries of the market and external forces. 2008 witnessed the now famous crash of the stock market. Sept 15th was named ‘Black Monday’ after Lehman Brothers declared bankruptcy and the Dow dropped over 500 points. Following this, market uncertainty increased and bottomed on March 5th 2009. This data set from the NASDAQ Stock Market covers the period from the beginning of 2008 until then end of 2009. It lists the end of day prices (505 in total) of 2,615 companies and therefore covers the peak period of this bear market. Visualising the correlation networks derived from these data provides a unique interface for exploring the events of a catastrophic market meltdown.
+
+{% include open-download-data-buttons.html link="/datasets/NASDAQ-2008-2009.graphia" %}
+
 ## **Biology**
 
 ### **Mouse Tissue Expression Atlas** – Numerical Data Matrix (.csv)
@@ -38,40 +72,6 @@ Taxonomy is the science of classifying and categorising biological organisms wit
 
 {% include open-download-data-buttons.html link="/datasets/mammalTaxonomy.graphia" %}
 
-
-## **Other data**
-
-### **London Tube Map** – Pairwise Text (.txt)
-
-![London Tube Pairwise]({{ site.url }}/datasets/Simple_pairwise-London_tube_map.png)
-
-Pairwise text file using two columns to represent the London underground. The London tube map was originally designed in 1933, by electrical draughtsman Harry Beck. It is now one of the most famous network diagrams in the world. The data is presented as a connectivity map of stations and lines, represented by nodes and edges respectively.
-
-{% include open-download-data-buttons.html link="/datasets/Simple_pairwise-London_tube_map.graphia" %}
-
-### **Nutritional Food Data** - Numerical Data Matrix (.csv)
-
-![Food contents]({{ site.url }}/datasets/Food_contents_2024.png)
-
-It is not uncommon for laboratories to test for over a 100 different nutrients in a given food product. This is a rich source of information, and when such results are collated across many foodstuffs the amount of data becomes significant challenge to understand. Here we provide nutritional data from a wide variety of foods in a format ready for network analysis. The data comes from the UK Government’s [Food Standards Agency] (https://www.food.gov.uk/) website. After some data cleaning we have taken nutritional values for 948 foods and where available the results of 104 nutritional value scores. An analysis ready copy of these data are provided here.
-
-{% include open-download-data-buttons.html link="/datasets/Food_contents_2024.graphia" %}
-
-### **UK Forename Data** – Numerical Correlation Data (.csv)
-
-![Historical UK forename data]({{ site.url }}/datasets/UK_forenames_1838-2014.png)
-
-In this study, Bush S.J., Powell-Smith A, Freeman TC (2018) Network analysis of the social and demographic influences on name choice within the UK (1838-2016). [PLoS ONE 13(10): e0205759.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205759), researchers used network analysis to examine naming records in order to explore the influences on name choices within the UK over the last 170 years. Using a large representative sample of approximately 22 million forenames from England and Wales given between 1838 and 2014, along with a complete population sample of births registered between 1996 and 2016, they demonstrated how trends in name usage can be visualised using Graphia.
-
-{% include open-download-data-buttons.html link="/datasets/UK_forenames_1838-2014.graphia" %}
-
-### **2008-2009 NASDAQ Shares** – Numerical data (.csv)
-
-![NASDAQ]({{ site.url }}/datasets/NASDAQ-2008-2009.png)
-
-Share prices rise and fall based on the performance of the company, but their value is also subject to the vagaries of the market and external forces. 2008 witnessed the now famous crash of the stock market. Sept 15th was named ‘Black Monday’ after Lehman Brothers declared bankruptcy and the Dow dropped over 500 points. Following this, market uncertainty increased and bottomed on March 5th 2009. This data set from the NASDAQ Stock Market covers the period from the beginning of 2008 until then end of 2009. It lists the end of day prices (505 in total) of 2,615 companies and therefore covers the peak period of this bear market. Visualising the correlation networks derived from these data provides a unique interface for exploring the events of a catastrophic market meltdown.
-
-{% include open-download-data-buttons.html link="/datasets/NASDAQ-2008-2009.graphia" %}
 
 ## **Geometric Graphs**
 
