@@ -24,6 +24,8 @@ Having Graphia available on the web allows for easy sharing of graph analyses. A
 
 [https://web.graphia.app/?arguments=https://graphia.app/datasets/flower_005.gml](https://web.graphia.app/?arguments=https://graphia.app/datasets/flower_005.gml)
 
-Note that the resource link must be a direct link to the file in question. In particular sharing links as produced by sites such [Google Drive](https://drive.google.com/) are not suitable, as they end up on a landing page with a user clickable download button.
+#### File Sharing Websites
+
+Note that the resource link must be a direct link to the file in question. In particular sharing links as produced by sites such [Google Drive](https://drive.google.com/) are not suitable, as they end up on a landing page with a user clickable download button. Depending on the site in question there may still be a way to get a suitable direct file link, e.g. by right clicking the *Download* button and selecting *Copy Link Address*, or using a third party site that generates direct links from sharing links. The bottom line is that if the link can be pasted into a web browser and the download starts immediately, it should be suitable for Graphia.
 
 {% include guide-nav.html %}
