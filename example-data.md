@@ -18,7 +18,7 @@ Pairwise text file using two columns to represent the London underground. The Lo
 
 ![Food contents]({{ site.url }}/datasets/Food_contents_2024.png)
 
-It is not uncommon for laboratories to test for over a 100 different nutrients in a given food product. This is a rich source of information, and when such results are collated across many foodstuffs the amount of data becomes significant challenge to understand. Here we provide nutritional data from a wide variety of foods in a format ready for network analysis. The data comes from the UK Government’s [Food Standards Agency] (https://www.food.gov.uk/) website. After some data cleaning we have taken nutritional values for 948 foods and where available the results of 104 nutritional value scores. An analysis ready copy of these data are provided here.
+It is not uncommon for laboratories to test for over a 100 different nutrients in a given food product. This is a rich source of information, and when such results are collated across many foodstuffs the amount of data becomes significant challenge to understand. Here we provide nutritional data from a wide variety of foods in a format ready for network analysis. The data comes from the UK Government’s [Food Standards Agency](https://www.food.gov.uk/) website. After some data cleaning we have taken nutritional values for 948 foods and where available the results of 104 nutritional value scores. An analysis ready copy of these data are provided here.
 
 {% include open-download-data-buttons.html link="/datasets/Food_contents_2024.graphia" %}
 
