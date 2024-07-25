@@ -38,6 +38,14 @@ Share prices rise and fall based on the performance of the company, but their va
 
 {% include open-download-data-buttons.html link="/datasets/NASDAQ-2008-2009.graphia" %}
 
+### **Reddit** – Graphia File (.graphia)
+
+![NASDAQ]({{ site.url }}/datasets/reddit.png)
+
+The social media site [Reddit](https://reddit.com) is a global discussion forum where posts are separated into subject areas known as *subreddits*. This graph models each node as a subreddit with the edges indicating some form of cross-reference to another subreddit. The data was compiled by the GitHub user [wojciech-graj](https://github.com/wojciech-graj) and is available in their [reddit-graph](https://github.com/wojciech-graj/reddit-graph) repository. Note that some of the less family friendly content has been removed from the version we present here.
+
+{% include open-download-data-buttons.html link="/datasets/reddit.graphia" %}
+
 ## **Biology**
 
 ### **Mouse Tissue Expression Atlas** – Numerical Data Matrix (.csv)
