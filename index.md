@@ -38,31 +38,31 @@ Graphia can create and visualise graphs from tables of numeric data and display 
 </iframe>
 </div>
 
-## **Benefits**
+### **Easy to use Interface** - _no programming skills required_
 
-### **Flexible Workflows** - _Many data types, many applications_
+Graphia is designed to be usable by any analyst on any desktop platform. Its intuitive graphical user interface means that powerful analytical algorithms and searches are just a click away!
 
-Graphia works with two broad classes of data; network data where connections between entities are already known, and numerical data where Graphia will construct a correlation graph from a table of numerical values.
+[![]({{site.url}}/assets/main/macos-white-thumbnail.png)]({{site.url}}/assets/main/macos-white.png)
 
 ### **Harnessing the Power of Visualisation** - _putting the analyst at the heart of the analysis_
 
 When data is visualised in an intuitive and interactive manner, it allows the analyst the tackle certain problems whose size and complexity make them otherwise intractable. Graphia couples computational algorithms with a visualisation interface that makes full use of the cognitive abilities of humans, providing deeper understanding and better communication of data.
 
-### **Easy to use Interface** - _no programming skills required_
-
-Graphia is designed to be usable by any analyst on any desktop platform. Its intuitive graphical user interface means that powerful analytical algorithms and searches are just a click away!
+[![]({{site.url}}/assets/main/linux-grey-thumbnail.png)]({{site.url}}/assets/main/linux-grey.png)
 
 ### **Scalability** - _think big!_
 
 The world is full of large and complex data and Graphia has been designed to work with it. Every aspect of the tool has been optimised for maximum speed and performance, so you don’t have to wait.
 
+[![]({{site.url}}/assets/main/windows-black-thumbnail.png)]({{site.url}}/assets/main/windows-black.png)
+
 ### **Data Deconvolution** - _ultra fast pattern finding_
 
 Many analyses of complex data come down to a need to identify patterns and trends of interest. Graphia is designed to make this easy and quick by combining fast dynamic visualisations of data structure, with cluster analysis and the ability to explore the underlying data associated with the clusters observed.
 
-![]({{site.url}}/assets/main/black-graph.png)
+[![]({{site.url}}/assets/main/web-grey-thumbnail.png)]({{site.url}}/assets/main/web-grey.png)
 
-## **Many Data Types from Many Sectors**
+## **Data Types**
 
 - **Biological Sciences** - protein interaction data, transcriptomics, single cell analyses, proteomics, metabolomics, multiparameter flow cytometry, genotyping data, medical imaging data
 - **Agritech** - data relating to the performance of animals, crops, farms, etc.
