@@ -60,10 +60,6 @@ The world is full of large and complex data and Graphia has been designed to wor
 
 Many analyses of complex data come down to a need to identify patterns and trends of interest. Graphia is designed to make this easy and quick by combining fast dynamic visualisations of data structure, with cluster analysis and the ability to explore the underlying data associated with the clusters observed.
 
-### **Data Integration and Connectivity** - _extensible to fit your needs_
-
-Graphia provides a platform where different data types can be merged and explored as a graph, where connections or data attributes are derived from more than one source. A plugin architecture enables the user interface may be modified to suit a given data type, connect with predefined data sources or optimised for a given analytical process. This allow a developer to tailor it to suit specific analytical needs without needing to alter the core application.
-
 ![]({{site.url}}/assets/main/black-graph.png)
 
 ## **Many Data Types from Many Sectors**
