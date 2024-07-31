@@ -71,7 +71,7 @@ Many analyses of complex data come down to a need to identify patterns and trend
 - **Text Mining** - count matrices of words found across many documents
 - **Questionnaire** - answers to questions are categorical (yes/no) or continuous (1-10)
 
-![]({{site.url}}/assets/main/ui.png)
+[![]({{site.url}}/assets/main/ui-thumbnail.png)]({{site.url}}/assets/main/ui.png)
 
 ## **About**
 
