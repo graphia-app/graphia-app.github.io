@@ -14,6 +14,8 @@ Graphia is a powerful open source visual analytics application developed to aid 
 
 Graphia can create and visualise graphs from tables of numeric data and display the structures that result. It can also be used to visualise and analyse any data that is already in the form of a graph.
 
+<p class="wasm">You can try Graphia <a href="https://web.graphia.app">directly on the web</a>, without having to download it first.</p>
+
 ![]({{site.url}}/assets/main/tree-graphs.png)
 
 ## **Features**
