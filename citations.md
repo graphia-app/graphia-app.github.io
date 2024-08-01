@@ -10,11 +10,15 @@ If you would like your publication to appear here, please [let us know](mailto:i
 
 [A Systems-Level Analysis of Total-Body PET Data Reveals Complex Skeletal Metabolism Networks in vivo.](https://www.frontiersin.org/articles/10.3389/fmed.2021.740615/full) Karla J. Suchacki, Carlos J. Alcaide-Corral, Samah Nimale, Mark G. Macaskill, Roland H. Stimson, Colin Farquharson, Tom C. Freeman, Adriana A. S. Tavares. Frontiers in Medicine (2021).
 
+[Actinomycetota bioprospecting from ore-forming environments](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001253) César Aguilar, Amir Alwali, Madeline Mair, Lorena Rodriguez-Orduña, Haydeé Contreras-Peruyero, Ramya Modi, Carson Roberts, Nelly Sélem-Mojica, Cuauhtemoc Licona-Cassani, Elizabeth Ivy Parkinson. Microbiology Society (2024).
+
 [Biomolecule and Bioentity Interaction Databases in Systems Biology: A Comprehensive Review.](https://www.mdpi.com/2218-273X/11/8/1245) Fotis A. Baltoumas, Sofia Zafeiropoulou, Evangelos Karatzas, Mikaela Koutrouli, Foteini Thanati, Kleanthi Voutsadaki, Maria Gkonta, Joana Hotova, Ioannis Kasionis, Pantelis Hatzis, Georgios A. Pavlopoulos. Biomolecules (2021).
 
 [Blockchain Analysis of the Bitcoin Market.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3942181) Igor Makarov, Antoinette Schoar. SSRN Electronic Journal – Preprint (2021).
 
 [Bovine host genome acts on rumen microbiome function linked to methane emissions.](https://www.nature.com/articles/s42003-022-03293-0) Marina Martínez-Álvaro, Marc D. Auffret, Carol-Anne Duthie, Richard J. Dewhurst, Matthew A. Cleveland, Mick Watson & Rainer Roehe. Nature Communications (2022).
+
+[Chicken CSF2 and IL-4-, and CSF2-dependent bone marrow cultures differentiate into macrophages over time](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.1064084/full) Dominika Borowska, Samantha Sives, Lonneke Vervelde, Kate M. Sutton. Frontiers in Immunology (2022).
 
 [Combination of novel and public RNA-seq datasets to generate an mRNA expression atlas for the domestic chicken.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4972-7) Stephen J. Bush, Lucy Freem, Amanda J. MacCallum, Jenny O’Dell, Chunlei Wu, Cyrus Afrasiabi, Androniki Psifidi, Mark P. Stevens, Jacqueline Smith, Kim M. Summers & David A. Hume. BMC Genomics (2018).
 
@@ -24,11 +28,17 @@ If you would like your publication to appear here, please [let us know](mailto:i
 
 [Inflammatory profiles across the spectrum of disease reveal a distinct role for GM-CSF in severe COVID-19.](https://www.science.org/doi/10.1126/sciimmunol.abg9873) Ryan S Thwaites, et al., Science Immunology (2021).
 
+[Integrative high-throughput enhancer surveying and functional verification divulges a YY2-condensed regulatory axis conferring risk for osteoporosis](https://www.cell.com/cell-genomics/fulltext/S2666-979X%2824%2900028-4) Xiao-Feng Chen, Yuan-Yuan Duan, Ying-Ying Jia, Qian-Hua Dong, Wei Shi, Yan Zhang, Shan-Shan Dong, Meng Li, Zhongbo Liu, Fei Chen, Xiao-Ting Huang, Ruo-Han Hao, Dong-Li Zhu, Rui-Hua Jing, Yan Guo, Tie-Lin Yang. Cell Genomics (2024).
+
 [Prophages in the infant gut are largely induced, and may be functionally relevant to their hosts.](https://www.biorxiv.org/content/10.1101/2021.06.25.449885v1.article-info) Tamsin A. Redgwell, Jonathan Thorsen, Marie-Agnes Petit, Ling Deng, Gisle A. Vestergaard, Jakob Russel, Hans Bisgaard, Dennis S. Nielsen, Søren Sørensen, Jakob Stokholm, Shiraz A. Shah. bioRxiv – Preprint (2021).
 
 [Realistic agent-based simulation of infection dynamics and percolation.](https://www.sciencedirect.com/science/article/abs/pii/S0378437121005951) Kai Nagel, Christian Rakow, Sebastian A. Müller. Physica A Statistical Mechanics and its Applications (2021).
 
+[Recent advances in the genomic resources for sheep](https://link.springer.com/article/10.1007/s00335-023-10018-z) Shernae A. Woolley, Mazdak Salavati, Emily L. Clark. Mammalian Genome (2023).
+
 [SARS‐CoV‐2 neutralizing antibodies decline over one year and patients with severe COVID‐19 pneumonia display a unique cytokine profile.](https://pubmed.ncbi.nlm.nih.gov/34536610/) Vimvara Vacharathit, Sirawat Srichatrapimuk, Suwimon Manopwisedjaroen, Suppachok Kirdlarp, Chanya Srisaowakarn, Chavachol Setthaudom, Nanthicha Inrueangsri, Prapaporn Pisitkun, Mongkol Kunakorn, Suradej Hongeng, Somnuek Sungkanuparph, Arunee Thitithanyanont.  International Journal of Infectious Diseases (2021).
+
+[Temporal dynamics of genetically heterogeneous extended-spectrum cephalosporin-resistant Escherichia coli bloodstream infections](https://journals.asm.org/doi/10.1128/msphere.00183-23) William C. Shropshire, Benjamin Strope, Selvalakshmi Selvaraj Anand, Jordan Bremer, Patrick McDaneld, Micah M. Bhatti, Anthony R. Flores, Awdhesh Kalia, Samuel A. Shelburne. mSphere (2023).
 
 [The VRNetzer platform enables interactive network analysis in Virtual Reality.](https://www.nature.com/articles/s41467-021-22570-w) Sebastian Pirch, Felix Müller, Eugenia Iofinova, Julia Pazmandi, Christiane V. R. Hütter, Martin Chiettini, Celine Sin, Kaan Boztug, Iana Podkosova, Hannes Kaufmann, Jörg Menche. Nature Communications (2021).
 
