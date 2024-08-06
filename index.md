@@ -85,6 +85,10 @@ Tom C. Freeman, Sebastian Horsewell, Anirudh Patir, Josh Harling-Lee, Tim Regan,
 
 Graphia has been used in many [publications]({{site.url}}/citations.html), in a variety of contexts. If you would like your publication to appear here, please [let us know](mailto:info@graphia.app?subject=Publication Using Graphia).
 
+## **Privacy**
+
+Graphia does not track what analyses you perform or retain any data loaded into it – your privacy is assured. This applies to all versions of Graphia, including web. We do request an email address in order that we can track overall usage of the application, but this is voluntary; you can choose to use Graphia anonymously if you prefer.
+
 ## **Help**
 
 If you have a question about how to do something that isn't explained in the [user guide]({{site.url}}/userguide.html), a suggestion for a feature or just want to discuss Graphia in some way, please use the [discussions](https://github.com/{{ site.github_project }}/discussions) section on GitHub. If you believe you're experiencing a bug, please report it in the [issues](https://github.com/{{ site.github_project }}/issues) section on GitHub and we will endeavour to solve it. For any other more general queries, email us directly: <info@graphia.app>.
