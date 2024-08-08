@@ -37,4 +37,13 @@ Access-Control-Allow-Origin: *
 Access-Control-Allow-Origin: https://web.graphia.app
 ```
 
+Should you have deployed your own copy of web Graphia and wish to employ your own CORS proxy, this can be enabled by setting the `CORS_PROXY` environment variable, which is in the configuration parameter of the call to `qtLoad` found in the root html file, e.g.:
+
+```
+                const instance = await qtLoad({
+                    qt: {
+-->                     environment: {"CORS_PROXY": "https://corsproxy.yourdomain.com"},
+                        onLoaded: () => showUi(screen),
+```
+
 {% include guide-nav.html %}
