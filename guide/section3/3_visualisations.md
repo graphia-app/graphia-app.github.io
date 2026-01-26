@@ -39,6 +39,6 @@ Each visualisation operates within its domain and does not interfere with other 
 ![]({{ site.url }}/guide/assets/visualisation-mapping.png)
 <div class="caption">Visualisation mapping editor.</div>
 
-Numerical attributes can be mapped to the chosen visualisation channel in a variety of ways. By default the minimum and maximum values of the attribute are used, that is to say the minimum attribute value maps to e.g. the minimum node size, and likewise for the maxmimum. Additionally, the standard deviation may be used, or an entirely custom range decided the user. In the case where the attribute's value distribution is not homogenous, the curve of the mapping can be adjusted to better reflect the underlying data.
+Numerical attributes can be mapped to the chosen visualisation channel in a variety of ways. By default the minimum and maximum values of the attribute are used, that is to say the minimum attribute value maps to e.g. the minimum node size, and likewise for the maxmimum. Additionally, the standard deviation may be used, or an entirely custom range decided by the user. In the case where the attribute's value distribution is not homogenous, the curve of the mapping can be adjusted to better reflect the underlying data.
 
 {% include guide-nav.html %}
